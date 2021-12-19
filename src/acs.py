@@ -5,6 +5,7 @@ import time
 import numpy as np
 from copy import deepcopy
 
+
 def remove_leafs(n_nodes, edges_used, weight, t, a):
         degrees = np.array([0] * n_nodes)
         for i in list(range(n_nodes)):
@@ -96,9 +97,9 @@ class AntColonySystem:
         for _ in range(self.iter):
             start2 = time.time()
             
-            # we want to stop moving when half ants of each terminal finish
+            # we want to stop moving when half 1/4 of each terminal finish
             moves = 0
-            while self.ants1_finished < self.n_ants // 4 or self.ants2_finished < self.n_ants // 4:
+            while self.ants1_finished < self.n_ants // 8 or self.ants2_finished < self.n_ants // 8:
                 moves += 1
                 self.move()
 
@@ -116,8 +117,6 @@ class AntColonySystem:
 
         if self.print_time:
             print(f'All {self.iter} iterations: {time.time() - start1}s')
-
-        return self.best_weight
 
     def move(self):
         for i, ant in enumerate(self.ants):
@@ -186,7 +185,7 @@ class AntColonySystem:
         with open(self.input_file, 'r') as f:
             first_line = f.readlines()[0].replace('\n', '')
 
-        with open(f'{output_file}-{self.best_weight}', 'w') as f:
+        with open(f'{output_file.split(".")[0]}-{self.best_weight}.txt', 'w') as f:
             f.write(f'{first_line}\n')
             for e in self.best_edges1:
                 f.write(f'S1 {e[0]} {e[1]}\n')
