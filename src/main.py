@@ -8,6 +8,10 @@ import threading
 import _thread
 
 
+#########
+# TIMER #
+#########
+
 @contextmanager
 def time_limit(seconds):
     timer = threading.Timer(seconds, lambda: _thread.interrupt_main())
@@ -20,6 +24,10 @@ def time_limit(seconds):
     finally:
         timer.cancel()
 
+
+##################
+# TEST ALL FILES #
+##################
 
 def test(data, output):
     for file in listdir(data):
@@ -42,21 +50,18 @@ def start(input_file, output_file):
     print(f'p={p}')
     print(f'iter={iter}')
 
-    acs = AntColonySystem(input_file, n_ants, alpha, beta, p, iter)
+    acs = AntColonySystem(input_file, n_ants, alpha, beta, p, iter, verbose=1)
     acs.execute()
     acs.output(output_file)
 
     print('#######################')
 
 
-def training(input_file, output_file, params, timeout=True):
-    best_weight = np.inf
-    best_n_ants = None
-    best_alpha = None
-    best_beta = None
-    best_p = None
-    best_iter = None
+##########################
+# TUNING HYPERPARAMETERS #
+##########################
 
+def training(input_file, params, timeout=True):
     params = {}
 
     for n_ants in [20]:
@@ -71,7 +76,7 @@ def training(input_file, output_file, params, timeout=True):
                         print(f'p={p}')
                         print(f'iter={iter}')
 
-                        acs = AntColonySystem(input_file, n_ants, alpha, beta, p, iter)
+                        acs = AntColonySystem(input_file, n_ants, alpha, beta, p, iter, verbose=1)
                         if timeout:
                             with time_limit(300):
                                 acs.execute()
@@ -79,18 +84,12 @@ def training(input_file, output_file, params, timeout=True):
                             acs.execute()
                         weight = acs.best_weight
                         params[f'{n_ants}-{alpha}-{beta}-{p}-{iter}'] = weight
-                        if weight < best_weight:
-                            best_weight = weight
-                            best_n_ants = n_ants
-                            best_alpha = alpha
-                            best_beta = beta
-                            best_p = p
-                            best_iter = iter
 
                         print('#######################')
 
     best_params = {k: v for k, v in sorted(params.items(), key=lambda item: item[1])}   
 
+    # output the params of all iterations sorted by weight
     with open(f'{params}best_params-{input_file.split("/")[1]}', 'w') as f:
         f.write(f'############# BEST PARAMS FOR {input_file} #############\n')
         for k, v in best_params.items():
@@ -102,29 +101,17 @@ def training(input_file, output_file, params, timeout=True):
             f.write(f'p={p}\n')
             f.write(f'iter={iter}\n\n')
 
-    print(f'############# BEST PARAMS FOR {input_file} #############')
-    print(f'best_weight={best_weight}')
-    print(f'best_n_ants={best_n_ants}')
-    print(f'best_alpha={best_alpha}')
-    print(f'best_beta={best_beta}')
-    print(f'best_p={best_p}')
-    print(f'best_iter={best_iter}')
-
-    acs = AntColonySystem(input_file, best_n_ants, best_alpha, best_beta, best_p, best_iter)
-    print(f'new_weight={acs.execute()}')
-    acs.output(output_file)
-
-    print('#######################')
-
 
 if __name__ == '__main__':
     tuning = 'tune_test_set/'
     data = 'data/'
     output = 'out/'
     params = 'params/'
+
     file = '0024.txt'
     #test(data, output)
     #start(f'{data}{file}', f'{output}{file}')
     #training(f'{data}{file}', f'{output}{file}', params)
+
     file = 'inst01.txt'
     training(f'{tuning}{file}', f'{output}{file}', params, True)

@@ -2,6 +2,11 @@ import numpy as np
 
 
 def parse_file(file):
+    """
+    The edges are stored in a matrix of n_nodes x n_nodes called n
+    We add a row and a column for the starter node (-1) which helps us to start in any node
+    """
+    
     n_nodes = None
     a1 = None
     a2 = None

@@ -6,6 +6,10 @@ import numpy as np
 from copy import deepcopy
 
 
+################
+# REMOVE LEAFS #
+################
+
 def remove_leafs(n_nodes, edges_used, weight, t, a):
         degrees = np.array([0] * n_nodes)
         for i in list(range(n_nodes)):
@@ -40,20 +44,29 @@ def remove_leafs(n_nodes, edges_used, weight, t, a):
         return edges_used, weight
 
 
+##############
+# MAX-MIN AS #
+##############
+
 class AntColonySystem:
     """
-    MAX-MIN AS
-    Edges have always the lower value as origin
+    ! edges_used have always the lower value as origin in the tuples
     """
 
-    def __init__(self, input_file, n_ants, alpha, beta, p, iter, print_time=False):
+    def __init__(self, input_file, n_ants, alpha, beta, p, iter, verbose=0):
+        """
+        Verbose -> 0 (nothing), 1 (time of the whole algorithm), 2 (time of each iteration)
+        First, compute the kruskal heuristic to set the initial weight and edges, and also the max and min pheromone values
+        Create half of total ants for each terminal
+        """
+
         self.input_file = input_file
         self.n_nodes, self.a1, self.a2, self.y, self.original_n, self.t1, self.t2 = parse_file(self.input_file)
         self.alpha = alpha
         self.beta = beta
         self.p = p # pheromone evaporation rate
         self.iter = iter
-        self.print_time = print_time
+        self.verbose = verbose
 
         # heuristic
         heuristic = Heuristic(self.n_nodes, deepcopy(self.original_n))
@@ -92,7 +105,17 @@ class AntColonySystem:
         self.tau = np.full(self.original_n.shape, self.max_tau)
         self.pheromones_update(best_edges)
 
+    ############
+    # ANT MOVE #
+    ############
+
     def execute(self):
+        """
+        Executes the algorithm for self.iter iterations
+        Each iteration stops when 1/4 ants of each terminal have found a solution
+        Then we mix the solution of different terminal ants to find the best solution
+        """
+        
         start1 = time.time()
         for _ in range(self.iter):
             start2 = time.time()
@@ -103,22 +126,26 @@ class AntColonySystem:
                 moves += 1
                 self.move()
 
-            if self.print_time:
+            if self.verbose == 2:
                 end = time.time()
                 print(f'Whole move method: {(end - start2)}')
                 print(f'Mean move method: {(end - start2) / moves}s')
 
             start3 = time.time()
             self.end_iteration()
-            if self.print_time:
+            if self.verbose == 2:
                 end = time.time()
                 print(f'End iteration: {end - start3}s')
                 print(f'One full iteration: {end - start2}s\n')   
 
-        if self.print_time:
+        if self.verbose == 1:
             print(f'All {self.iter} iterations: {time.time() - start1}s')
 
     def move(self):
+        """
+        Move all ants until they find a solution
+        """
+        
         for i, ant in enumerate(self.ants):
             ant.move()
             if ant.finished:
@@ -128,7 +155,16 @@ class AntColonySystem:
                 else:
                     self.ants2_finished += 1
 
+    #################
+    # END ITERATION #
+    #################
+
     def end_iteration(self):
+        """
+        Restore ants and remove leafs for all ants solutions
+        Get the best combination of edges and update max and min tau
+        """
+        
         self.ants = self.ants1 + self.ants2
         self.ants1_finished = 0
         self.ants2_finished = 0
@@ -167,6 +203,10 @@ class AntColonySystem:
         self.pheromones_update(best_edges)
 
     def pheromones_update(self, best_edges):
+        """
+        Pheromones update based on MAX-MIN AS and send to ants the new tau matrix
+        """
+        
         self.tau = self.p * self.tau
         increment = 1/len(best_edges)
         for e in best_edges:
@@ -181,6 +221,10 @@ class AntColonySystem:
         for ant in self.ants:
             ant.restart(self.tau)
 
+    ###################
+    # OUTPUT SOLUTION #
+    ###################
+
     def output(self, output_file):
         with open(self.input_file, 'r') as f:
             first_line = f.readlines()[0].replace('\n', '')
@@ -191,6 +235,10 @@ class AntColonySystem:
                 f.write(f'S1 {e[0]} {e[1]}\n')
             for e in self.best_edges2:
                 f.write(f'S2 {e[0]} {e[1]}\n')
+
+#######
+# ANT #
+#######
 
 class Ant:
     def __init__(self, type, t, a, original_n, n, start, alpha):
@@ -204,6 +252,10 @@ class Ant:
         self.nodes = list(range(start + 1))
 
     def restart(self, tau):
+        """
+        Restart ant each iteration
+        """
+        
         self.tau = np.power(tau, self.alpha)
         self.weight = 0
         self.orig = self.start
@@ -213,10 +265,15 @@ class Ant:
         self.finished = False
 
     def move(self):
+        """
+        If the ant has not finished, select a random destiny (based on probabilities)
+        Add the edge and do delta evaluation
+        """
+        
         if not self.finished:
-            res = self.tau[self.orig] * self.n[self.orig]
-            res /= np.sum(res)
-            dest = np.random.choice(self.nodes, p = res)
+            probabilities = self.tau[self.orig] * self.n[self.orig]
+            probabilities /= np.sum(probabilities)
+            dest = np.random.choice(self.nodes, p = probabilities)
 
             if dest not in self.visited:
                 self.visited.append(dest)

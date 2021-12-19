@@ -16,13 +16,13 @@ class Heuristic:
         self.edges_used = [[] for _ in range(len(self.nodes))]
         self.weight = 0
 
-        self.prims()
+        self.kruskal()
 
     def root(self, x):
         if x == self.nodes[x]: return x
         else: return self.root(self.nodes[x])
 
-    def prims(self):
+    def kruskal(self):
         while not all_equal(self.nodes):
             # edge with lower weight
             pos = np.argmin(self.n)
