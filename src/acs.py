@@ -111,13 +111,15 @@ class AntColonySystem:
 
     def execute(self):
         """
-        Executes the algorithm for self.iter iterations
+        Executes the algorithm until there are self.iter iterations without change
         Each iteration stops when 1/4 ants of each terminal have found a solution
         Then we mix the solution of different terminal ants to find the best solution
         """
         
         start1 = time.time()
-        for _ in range(self.iter):
+        t = 0 # time without improvement
+        i = 0 # number of iterations
+        while t < self.iter:
             start2 = time.time()
             
             # we want to stop moving when half 1/4 of each terminal finish
@@ -132,11 +134,17 @@ class AntColonySystem:
                 print(f'Mean move method: {(end - start2) / moves}s')
 
             start3 = time.time()
-            self.end_iteration()
+            # check if there has been an improvement
+            if self.end_iteration(i, t):
+                t = 0
+            else:
+                t += 1
             if self.verbose == 2:
                 end = time.time()
                 print(f'End iteration: {end - start3}s')
-                print(f'One full iteration: {end - start2}s\n')   
+                print(f'One full iteration: {end - start2}s\n')  
+
+            i += 1
 
         if self.verbose == 1:
             print(f'All {self.iter} iterations: {time.time() - start1}s')
@@ -159,11 +167,13 @@ class AntColonySystem:
     # END ITERATION #
     #################
 
-    def end_iteration(self):
+    def end_iteration(self, i, t):
         """
         Restore ants and remove leafs for all ants solutions
         Get the best combination of edges and update max and min tau
         """
+
+        improvement = False
         
         self.ants = self.ants1 + self.ants2
         self.ants1_finished = 0
@@ -191,16 +201,19 @@ class AntColonySystem:
                             best_weight = weight
 
         if best_weight < self.best_weight:
+            improvement = True
             self.best_weight = best_weight
             self.best_edges1 = best_edges1
             self.best_edges2 = best_edges2
-            print(f'# Best weight so far: {self.best_weight}')
+            print(f'# Best weight so far: {self.best_weight} in iteration {i + 1} ({t} iterations without improvement)')
 
             # update max and min pheromone values
             self.max_tau = 1/(1 - self.p) * 1/len(best_edges)
             self.min_tau = (self.max_tau * (1 - self.p ** (1/self.n_nodes))) / ((self.n_nodes/2 - 1) * self.p ** (1/self.n_nodes))
 
         self.pheromones_update(best_edges)
+
+        return improvement
 
     def pheromones_update(self, best_edges):
         """
@@ -266,6 +279,7 @@ class Ant:
 
     def move(self):
         """
+        Allow cycles
         If the ant has not finished, select a random destiny (based on probabilities)
         Add the edge and do delta evaluation
         """
