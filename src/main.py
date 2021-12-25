@@ -97,8 +97,6 @@ def tuning(input_dir, conf, option=1, n=30, gamma=0.04, time=300, iter=50):
     best_conf = confs[np.argmax(scores)]
     print(f'best_conf: {best_conf}')
 
-    return best_conf
-
 
 def get_random_confs(n):
     '''
