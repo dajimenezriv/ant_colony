@@ -273,6 +273,7 @@ class Ant:
         self.weight = 0
         self.orig = self.start
         self.visited = [self.start]
+        self.last_visited = None
         self.t_visited = []
         self.edges_used = [[] for _ in range(len(self.nodes))]
         self.finished = False
@@ -286,7 +287,12 @@ class Ant:
         
         if not self.finished:
             probabilities = self.tau[self.orig] * self.n[self.orig]
+            # we cannot return to last visited node
+            if self.last_visited != None:
+                probabilities[self.last_visited] = 0
             probabilities /= np.sum(probabilities)
+            
+            self.last_visited = self.orig
             dest = np.random.choice(self.nodes, p = probabilities)
 
             if dest not in self.visited:
@@ -302,6 +308,8 @@ class Ant:
 
                 if dest in self.t and dest not in self.t_visited:
                     self.t_visited.append(dest)
-
+                    # we can go back
+                    self.last_visited = None
+            
             self.orig = dest
             self.finished = len(self.t) == len(self.t_visited)
