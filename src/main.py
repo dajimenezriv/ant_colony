@@ -5,8 +5,8 @@ from contextlib import contextmanager
 import threading
 import _thread
 import numpy as np
-from sklearn.preprocessing import MinMaxScaler
-import sys
+import itertools
+import random
 
 
 #########
@@ -30,18 +30,15 @@ def time_limit(seconds):
 # TEST ALL FILES #
 ##################
 
-def test(data, output):
+def test(data, output, conf):
     for file in listdir(data):
         input_file = f'{data}{file}'
         output_file = f'{output}{file}'
-        start(input_file, output_file)
+        start(input_file, output_file, conf)
 
 
-def start(input_file, output_file):
-    n_ants = 70
-    alpha = 0.6837113997747161
-    beta = 0.5845333163118296
-    p = 0.4998281808780217
+def start(input_file, output_file, conf):
+    n_ants, alpha, beta, p = conf
     iter = 65
 
     print(f'############# {input_file} #############')
@@ -62,31 +59,23 @@ def start(input_file, output_file):
 # TUNING HYPERPARAMETERS #
 ##########################
 
-# [n_ants, alpha, beta, p]
-def training(input_file, params_dir, params=[70, 0.65, 0.6, 0.5], iter=50, gamma=0.06, timeout=True):
-    best_params=[]
-    res = {}
-    for pos, value in enumerate(params):
-        possibilities = []
+def tuning(input_dir, conf, option=1, n=30, gamma=0.04, time=300, iter=50):
+    if option == 1:
+        confs = get_random_confs(n)
+    else:
+        confs = get_param_options(n, conf, gamma)
 
-        # param possibilities
-        values = [
-            value - 2 * gamma * value, 
-            value - gamma * value, 
-            value, 
-            value + gamma * value, 
-            value + 2 * gamma * value]
-        
-        for value in values:
-            possibilities.append(list(np.concatenate([params[:pos], [value], params[pos+1:]])))
+    scores = [0] * n
 
-        # execute acs
-        param_res = []
-        for possibility in possibilities:
-            n_ants, alpha, beta, p = possibility
+    for file in listdir(input_dir):
+        input_file = f'{input_dir}{file}'
+
+        weights = []
+        for i, conf in enumerate(confs):
+            n_ants, alpha, beta, p = conf
             n_ants = int(round(n_ants, 0))
 
-            print(f'############# {input_file} #############')
+            print(f'############# {input_file} | conf {i} #############')
             print(f'n_ants={n_ants}')
             print(f'alpha={alpha}')
             print(f'beta={beta}')
@@ -94,64 +83,94 @@ def training(input_file, params_dir, params=[70, 0.65, 0.6, 0.5], iter=50, gamma
             print(f'iter={iter}')
 
             acs = AntColonySystem(input_file, n_ants, alpha, beta, p, iter, verbose=1)
-            if timeout:
-                with time_limit(300):
-                    acs.execute()
-            else:
+            with time_limit(time):
                 acs.execute()
+                
+            weights.append(acs.best_weight)
+        
+        # for the min_weight we give it the highest score (n)
+        # for the max_weight we give it the lowest score (1)
+        file_scores = n - np.array(np.argsort(weights))
+        scores = [a+b for a, b in zip(scores, file_scores)]
+    
+    print(f'scores: {scores}')
+    best_conf = confs[np.argmax(scores)]
+    print(f'best_conf: {best_conf}')
 
-            param_res.append(acs.best_weight)
-            res[f'{n_ants}-{alpha}-{beta}-{p}-{iter}'] = acs.best_weight
+    return best_conf
 
-            print('#######################')
 
-        # update params
-        scaler = MinMaxScaler((-len(values), 0))
-        m = -scaler.fit_transform(np.argsort(param_res).reshape(-1, 1))
-        best_param = np.dot(values, m) / sum(m)
-        best_params.append(best_param[0])
+def get_random_confs(n):
+    '''
+    Generate all possible confs and pick n random confs
+    '''
 
-    best_res = dict(sorted(res.items(), key=lambda item: item[1]))
+    # create all possible confs
+    n_ants = list(range(20, 100, 10))
+    alpha = [x / 10.0 for x in range(1, 10)]
+    beta = [x / 10.0 for x in range(1, 10)]
+    p = [x / 10.0 for x in range(1, 10)]
+    params = [n_ants, alpha, beta, p]
+    all_confs = list(itertools.product(*params))
+    print(f'n_ants: {len(n_ants)}. alpha: {len(alpha)}. beta: {len(beta)}. p: {len(p)}.')
+    print(f'all_confs: {len(all_confs)}')
 
-    # output the params of all iterations sorted by weight
-    with open(f'{params_dir}best_params-{input_file.split("/")[1]}', 'w') as f:
-        f.write(f'############# BEST PARAMS FOR {input_file} #############\n')
-        for k, v in best_res.items():
-            f.write(f'WEIGHT: {v}\n')
-            n_ants, alpha, beta, p, iter = k.split('-')
-            f.write(f'n_ants={n_ants}\n')
-            f.write(f'alpha={alpha}\n')
-            f.write(f'beta={beta}\n')
-            f.write(f'p={p}\n')
-            f.write(f'iter={iter}\n\n')
+    # select n random confs
+    random.seed(0)
+    n_confs = random.sample(range(0, len(all_confs)), n)
+    confs = list(map(all_confs.__getitem__, n_confs))
+    for conf in confs:
+        print(conf)
+    return confs
 
-    # best params for that file
-    print(f'\n############# BEST FARAMS FOR {input_file} #############')
-    n_ants, alpha, beta, p = best_params
-    print(best_params)
-    print(f'n_ants={n_ants}')
-    print(f'alpha={alpha}')
-    print(f'beta={beta}')
-    print(f'p={p}')
-    print(f'iter={iter}\n')
 
-    return best_params
+def get_param_options(n, conf, gamma):
+    '''
+    Generate all confs from small variations of a previous conf
+    Select n random confs
+    '''
+    
+    params = []
+    for value in conf:
+        # param possibilities
+        values = [
+            value - 2 * gamma * value, 
+            value - gamma * value, 
+            value, 
+            value + gamma * value, 
+            value + 2 * gamma * value]
+
+        params.append(values)
+
+    all_confs = list(itertools.product(*params))
+    print(f'confs: {len(all_confs)}')
+
+    # select n random confs
+    random.seed(0)
+    n_confs = random.sample(range(0, len(all_confs)), n)
+    confs = list(map(all_confs.__getitem__, n_confs))
+    for conf in confs:
+        print(conf)
+    return confs
+
+
+########
+# MAIN #
+########
 
 
 if __name__ == '__main__':
     tuning_dir = 'tune_test_set/'
     input_dir = 'data/'
     output_dir = 'out/'
-    params_dir = 'params/'
 
-    file = '0024.txt'
-    #test(input_dir, output_dir)
-    #start(f'{input_dir}{file}', f'{output_dir}{file}')
-    #training(f'{input_dir}{file}', params_dir)
+    best_conf = (70, 0.6837113997747161, 0.5845333163118296, 0.4998281808780217)
 
-    #sys.exit(0)
+    file = '0011.txt'
+    #test(input_dir, output_dir, best_conf)
+    #start(f'{input_dir}{file}', f'{output_dir}{file}', best_conf)
+    #tuning(input_dir, best_conf, option=1)
 
     file = 'inst01.txt'
-    params=[70, 0.6837113997747161, 0.5845333163118296, 0.4998281808780217]
-    for file in listdir(tuning_dir):
-        params = training(f'{tuning_dir}{file}', params_dir, params)
+    tuning(tuning_dir, best_conf, option=2)
+    

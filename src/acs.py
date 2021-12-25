@@ -287,8 +287,8 @@ class Ant:
         
         if not self.finished:
             probabilities = self.tau[self.orig] * self.n[self.orig]
-            # we cannot return to last visited node
-            if self.last_visited != None:
+            # we cannot return to last visited node (we can go back if it's the only way that exists)
+            if self.last_visited != None and sum(probabilities != 0) > 1:
                 probabilities[self.last_visited] = 0
             probabilities /= np.sum(probabilities)
             
