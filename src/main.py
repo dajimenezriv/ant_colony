@@ -39,7 +39,7 @@ def test(data, output, conf):
 
 def start(input_file, output_file, conf):
     n_ants, alpha, beta, p = conf
-    iter = 65
+    iter = 100
 
     print(f'############# {input_file} #############')
     print(f'n_ants={n_ants}')
@@ -162,13 +162,11 @@ if __name__ == '__main__':
     input_dir = 'data/'
     output_dir = 'out/'
 
-    best_conf = (70, 0.6837113997747161, 0.5845333163118296, 0.4998281808780217)
+    #best_conf = (70, 0.6837113997747161, 0.5845333163118296, 0.4998281808780217)
+    best_conf = (54, 0.7, 0.43200000000000005, 0.52)
 
     file = '0011.txt'
-    #test(input_dir, output_dir, best_conf)
+    test(input_dir, output_dir, best_conf)
     #start(f'{input_dir}{file}', f'{output_dir}{file}', best_conf)
-    #tuning(input_dir, best_conf, option=1)
-
-    file = 'inst01.txt'
-    tuning(tuning_dir, best_conf, option=2)
+    #tuning(tuning_dir, best_conf, option=2)
     

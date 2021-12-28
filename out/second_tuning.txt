@@ -1,0 +1,2933 @@
+confs: 625
+(52.0, 0.6439999999999999, 0.41600000000000004, 0.54)
+(52.0, 0.7, 0.384, 0.46)
+(46.0, 0.6719999999999999, 0.41600000000000004, 0.48)
+(50, 0.6439999999999999, 0.41600000000000004, 0.46)
+(54.0, 0.6439999999999999, 0.43200000000000005, 0.52)
+(52.0, 0.756, 0.43200000000000005, 0.5)
+(52.0, 0.6719999999999999, 0.4, 0.54)
+(50, 0.7, 0.4, 0.46)
+(52.0, 0.756, 0.4, 0.52)
+(50, 0.756, 0.41600000000000004, 0.48)
+(54.0, 0.728, 0.43200000000000005, 0.5)
+(48.0, 0.728, 0.43200000000000005, 0.52)
+(54.0, 0.6439999999999999, 0.41600000000000004, 0.48)
+(48.0, 0.6439999999999999, 0.41600000000000004, 0.5)
+(50, 0.6719999999999999, 0.4, 0.52)
+(48.0, 0.6439999999999999, 0.41600000000000004, 0.52)
+(46.0, 0.728, 0.43200000000000005, 0.5)
+(50, 0.6439999999999999, 0.384, 0.48)
+(54.0, 0.6719999999999999, 0.43200000000000005, 0.46)
+(54.0, 0.756, 0.41600000000000004, 0.48)
+(48.0, 0.6719999999999999, 0.368, 0.46)
+(50, 0.7, 0.41600000000000004, 0.5)
+(46.0, 0.756, 0.368, 0.48)
+(46.0, 0.728, 0.368, 0.46)
+(50, 0.728, 0.4, 0.52)
+(52.0, 0.756, 0.384, 0.52)
+(54.0, 0.7, 0.43200000000000005, 0.52)
+(46.0, 0.756, 0.368, 0.52)
+(50, 0.756, 0.4, 0.5)
+(52.0, 0.7, 0.41600000000000004, 0.54)
+############# tune_test_set/inst06.txt | conf 0 #############
+n_ants=52
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.54
+iter=50
+# Best weight so far: 52240.0
+
+Time out
+############# tune_test_set/inst06.txt | conf 1 #############
+n_ants=52
+alpha=0.7
+beta=0.384
+p=0.46
+iter=50
+# Best weight so far: 52240.0
+
+Time out
+############# tune_test_set/inst06.txt | conf 2 #############
+n_ants=46
+alpha=0.6719999999999999
+beta=0.41600000000000004
+p=0.48
+iter=50
+# Best weight so far: 52240.0
+
+Time out
+############# tune_test_set/inst06.txt | conf 3 #############
+n_ants=50
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.46
+iter=50
+# Best weight so far: 52240.0
+
+Time out
+############# tune_test_set/inst06.txt | conf 4 #############
+n_ants=54
+alpha=0.6439999999999999
+beta=0.43200000000000005
+p=0.52
+iter=50
+# Best weight so far: 52240.0
+
+Time out
+############# tune_test_set/inst06.txt | conf 5 #############
+n_ants=52
+alpha=0.756
+beta=0.43200000000000005
+p=0.5
+iter=50
+# Best weight so far: 52240.0
+
+Time out
+############# tune_test_set/inst06.txt | conf 6 #############
+n_ants=52
+alpha=0.6719999999999999
+beta=0.4
+p=0.54
+iter=50
+# Best weight so far: 52240.0
+
+Time out
+############# tune_test_set/inst06.txt | conf 7 #############
+n_ants=50
+alpha=0.7
+beta=0.4
+p=0.46
+iter=50
+# Best weight so far: 52240.0
+
+Time out
+############# tune_test_set/inst06.txt | conf 8 #############
+n_ants=52
+alpha=0.756
+beta=0.4
+p=0.52
+iter=50
+# Best weight so far: 52240.0
+
+Time out
+############# tune_test_set/inst06.txt | conf 9 #############
+n_ants=50
+alpha=0.756
+beta=0.41600000000000004
+p=0.48
+iter=50
+# Best weight so far: 52240.0
+
+Time out
+############# tune_test_set/inst06.txt | conf 10 #############
+n_ants=54
+alpha=0.728
+beta=0.43200000000000005
+p=0.5
+iter=50
+# Best weight so far: 52240.0
+
+Time out
+############# tune_test_set/inst06.txt | conf 11 #############
+n_ants=48
+alpha=0.728
+beta=0.43200000000000005
+p=0.52
+iter=50
+# Best weight so far: 52240.0
+
+Time out
+############# tune_test_set/inst06.txt | conf 12 #############
+n_ants=54
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.48
+iter=50
+# Best weight so far: 52240.0
+
+Time out
+############# tune_test_set/inst06.txt | conf 13 #############
+n_ants=48
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.5
+iter=50
+# Best weight so far: 52240.0
+
+Time out
+############# tune_test_set/inst06.txt | conf 14 #############
+n_ants=50
+alpha=0.6719999999999999
+beta=0.4
+p=0.52
+iter=50
+# Best weight so far: 52240.0
+
+Time out
+############# tune_test_set/inst06.txt | conf 15 #############
+n_ants=48
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.52
+iter=50
+# Best weight so far: 52240.0
+
+Time out
+############# tune_test_set/inst06.txt | conf 16 #############
+n_ants=46
+alpha=0.728
+beta=0.43200000000000005
+p=0.5
+iter=50
+# Best weight so far: 52240.0
+
+Time out
+############# tune_test_set/inst06.txt | conf 17 #############
+n_ants=50
+alpha=0.6439999999999999
+beta=0.384
+p=0.48
+iter=50
+# Best weight so far: 52240.0
+
+Time out
+############# tune_test_set/inst06.txt | conf 18 #############
+n_ants=54
+alpha=0.6719999999999999
+beta=0.43200000000000005
+p=0.46
+iter=50
+# Best weight so far: 52240.0
+
+Time out
+############# tune_test_set/inst06.txt | conf 19 #############
+n_ants=54
+alpha=0.756
+beta=0.41600000000000004
+p=0.48
+iter=50
+# Best weight so far: 52240.0
+
+Time out
+############# tune_test_set/inst06.txt | conf 20 #############
+n_ants=48
+alpha=0.6719999999999999
+beta=0.368
+p=0.46
+iter=50
+# Best weight so far: 52240.0
+
+Time out
+############# tune_test_set/inst06.txt | conf 21 #############
+n_ants=50
+alpha=0.7
+beta=0.41600000000000004
+p=0.5
+iter=50
+# Best weight so far: 52240.0
+
+Time out
+############# tune_test_set/inst06.txt | conf 22 #############
+n_ants=46
+alpha=0.756
+beta=0.368
+p=0.48
+iter=50
+# Best weight so far: 52240.0
+
+Time out
+############# tune_test_set/inst06.txt | conf 23 #############
+n_ants=46
+alpha=0.728
+beta=0.368
+p=0.46
+iter=50
+# Best weight so far: 52240.0
+
+Time out
+############# tune_test_set/inst06.txt | conf 24 #############
+n_ants=50
+alpha=0.728
+beta=0.4
+p=0.52
+iter=50
+# Best weight so far: 52240.0
+
+Time out
+############# tune_test_set/inst06.txt | conf 25 #############
+n_ants=52
+alpha=0.756
+beta=0.384
+p=0.52
+iter=50
+# Best weight so far: 52240.0
+
+Time out
+############# tune_test_set/inst06.txt | conf 26 #############
+n_ants=54
+alpha=0.7
+beta=0.43200000000000005
+p=0.52
+iter=50
+# Best weight so far: 52240.0
+
+Time out
+############# tune_test_set/inst06.txt | conf 27 #############
+n_ants=46
+alpha=0.756
+beta=0.368
+p=0.52
+iter=50
+# Best weight so far: 52240.0
+
+Time out
+############# tune_test_set/inst06.txt | conf 28 #############
+n_ants=50
+alpha=0.756
+beta=0.4
+p=0.5
+iter=50
+# Best weight so far: 52240.0
+
+Time out
+############# tune_test_set/inst06.txt | conf 29 #############
+n_ants=52
+alpha=0.7
+beta=0.41600000000000004
+p=0.54
+iter=50
+# Best weight so far: 52240.0
+
+Time out
+############# tune_test_set/inst01.txt | conf 0 #############
+n_ants=52
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.54
+iter=50
+# Best weight so far: 50029.0
+
+Time out
+############# tune_test_set/inst01.txt | conf 1 #############
+n_ants=52
+alpha=0.7
+beta=0.384
+p=0.46
+iter=50
+# Best weight so far: 50029.0
+
+Time out
+############# tune_test_set/inst01.txt | conf 2 #############
+n_ants=46
+alpha=0.6719999999999999
+beta=0.41600000000000004
+p=0.48
+iter=50
+# Best weight so far: 50029.0
+
+Time out
+############# tune_test_set/inst01.txt | conf 3 #############
+n_ants=50
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.46
+iter=50
+# Best weight so far: 50029.0
+
+Time out
+############# tune_test_set/inst01.txt | conf 4 #############
+n_ants=54
+alpha=0.6439999999999999
+beta=0.43200000000000005
+p=0.52
+iter=50
+# Best weight so far: 50029.0
+
+Time out
+############# tune_test_set/inst01.txt | conf 5 #############
+n_ants=52
+alpha=0.756
+beta=0.43200000000000005
+p=0.5
+iter=50
+# Best weight so far: 50029.0
+
+Time out
+############# tune_test_set/inst01.txt | conf 6 #############
+n_ants=52
+alpha=0.6719999999999999
+beta=0.4
+p=0.54
+iter=50
+# Best weight so far: 50029.0
+
+Time out
+############# tune_test_set/inst01.txt | conf 7 #############
+n_ants=50
+alpha=0.7
+beta=0.4
+p=0.46
+iter=50
+# Best weight so far: 50029.0
+
+Time out
+############# tune_test_set/inst01.txt | conf 8 #############
+n_ants=52
+alpha=0.756
+beta=0.4
+p=0.52
+iter=50
+# Best weight so far: 50029.0
+
+Time out
+############# tune_test_set/inst01.txt | conf 9 #############
+n_ants=50
+alpha=0.756
+beta=0.41600000000000004
+p=0.48
+iter=50
+# Best weight so far: 50029.0
+
+Time out
+############# tune_test_set/inst01.txt | conf 10 #############
+n_ants=54
+alpha=0.728
+beta=0.43200000000000005
+p=0.5
+iter=50
+# Best weight so far: 50029.0
+
+Time out
+############# tune_test_set/inst01.txt | conf 11 #############
+n_ants=48
+alpha=0.728
+beta=0.43200000000000005
+p=0.52
+iter=50
+# Best weight so far: 50029.0
+
+Time out
+############# tune_test_set/inst01.txt | conf 12 #############
+n_ants=54
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.48
+iter=50
+# Best weight so far: 50029.0
+
+Time out
+############# tune_test_set/inst01.txt | conf 13 #############
+n_ants=48
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.5
+iter=50
+# Best weight so far: 50029.0
+
+Time out
+############# tune_test_set/inst01.txt | conf 14 #############
+n_ants=50
+alpha=0.6719999999999999
+beta=0.4
+p=0.52
+iter=50
+# Best weight so far: 50029.0
+
+Time out
+############# tune_test_set/inst01.txt | conf 15 #############
+n_ants=48
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.52
+iter=50
+# Best weight so far: 50029.0
+
+Time out
+############# tune_test_set/inst01.txt | conf 16 #############
+n_ants=46
+alpha=0.728
+beta=0.43200000000000005
+p=0.5
+iter=50
+# Best weight so far: 50029.0
+
+Time out
+############# tune_test_set/inst01.txt | conf 17 #############
+n_ants=50
+alpha=0.6439999999999999
+beta=0.384
+p=0.48
+iter=50
+# Best weight so far: 50029.0
+
+Time out
+############# tune_test_set/inst01.txt | conf 18 #############
+n_ants=54
+alpha=0.6719999999999999
+beta=0.43200000000000005
+p=0.46
+iter=50
+# Best weight so far: 50029.0
+
+Time out
+############# tune_test_set/inst01.txt | conf 19 #############
+n_ants=54
+alpha=0.756
+beta=0.41600000000000004
+p=0.48
+iter=50
+# Best weight so far: 50029.0
+
+Time out
+############# tune_test_set/inst01.txt | conf 20 #############
+n_ants=48
+alpha=0.6719999999999999
+beta=0.368
+p=0.46
+iter=50
+# Best weight so far: 50029.0
+
+Time out
+############# tune_test_set/inst01.txt | conf 21 #############
+n_ants=50
+alpha=0.7
+beta=0.41600000000000004
+p=0.5
+iter=50
+# Best weight so far: 50029.0
+
+Time out
+############# tune_test_set/inst01.txt | conf 22 #############
+n_ants=46
+alpha=0.756
+beta=0.368
+p=0.48
+iter=50
+# Best weight so far: 50029.0
+
+Time out
+############# tune_test_set/inst01.txt | conf 23 #############
+n_ants=46
+alpha=0.728
+beta=0.368
+p=0.46
+iter=50
+# Best weight so far: 50029.0
+
+Time out
+############# tune_test_set/inst01.txt | conf 24 #############
+n_ants=50
+alpha=0.728
+beta=0.4
+p=0.52
+iter=50
+# Best weight so far: 50029.0
+
+Time out
+############# tune_test_set/inst01.txt | conf 25 #############
+n_ants=52
+alpha=0.756
+beta=0.384
+p=0.52
+iter=50
+# Best weight so far: 50029.0
+
+Time out
+############# tune_test_set/inst01.txt | conf 26 #############
+n_ants=54
+alpha=0.7
+beta=0.43200000000000005
+p=0.52
+iter=50
+# Best weight so far: 50029.0
+
+Time out
+############# tune_test_set/inst01.txt | conf 27 #############
+n_ants=46
+alpha=0.756
+beta=0.368
+p=0.52
+iter=50
+# Best weight so far: 50029.0
+
+Time out
+############# tune_test_set/inst01.txt | conf 28 #############
+n_ants=50
+alpha=0.756
+beta=0.4
+p=0.5
+iter=50
+# Best weight so far: 50029.0
+
+Time out
+############# tune_test_set/inst01.txt | conf 29 #############
+n_ants=52
+alpha=0.7
+beta=0.41600000000000004
+p=0.54
+iter=50
+# Best weight so far: 50029.0
+
+Time out
+############# tune_test_set/inst09.txt | conf 0 #############
+n_ants=52
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.54
+iter=50
+# Best weight so far: 47703.0
+
+Time out
+############# tune_test_set/inst09.txt | conf 1 #############
+n_ants=52
+alpha=0.7
+beta=0.384
+p=0.46
+iter=50
+# Best weight so far: 47703.0
+# Best weight so far: 46276.0 in iteration 5 (4 iterations without improvement)
+# Best weight so far: 43684.0 in iteration 8 (2 iterations without improvement)
+# Best weight so far: 42031.0 in iteration 12 (3 iterations without improvement)
+# Best weight so far: 37014.0 in iteration 13 (0 iterations without improvement)
+
+Time out
+############# tune_test_set/inst09.txt | conf 2 #############
+n_ants=46
+alpha=0.6719999999999999
+beta=0.41600000000000004
+p=0.48
+iter=50
+# Best weight so far: 47703.0
+# Best weight so far: 44891.0 in iteration 9 (8 iterations without improvement)
+
+Time out
+############# tune_test_set/inst09.txt | conf 3 #############
+n_ants=50
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.46
+iter=50
+# Best weight so far: 47703.0
+# Best weight so far: 47659.0 in iteration 6 (5 iterations without improvement)
+# Best weight so far: 46428.0 in iteration 10 (3 iterations without improvement)
+
+Time out
+############# tune_test_set/inst09.txt | conf 4 #############
+n_ants=54
+alpha=0.6439999999999999
+beta=0.43200000000000005
+p=0.52
+iter=50
+# Best weight so far: 47703.0
+# Best weight so far: 45249.0 in iteration 2 (1 iterations without improvement)
+
+Time out
+############# tune_test_set/inst09.txt | conf 5 #############
+n_ants=52
+alpha=0.756
+beta=0.43200000000000005
+p=0.5
+iter=50
+# Best weight so far: 47703.0
+# Best weight so far: 45410.0 in iteration 10 (9 iterations without improvement)
+
+Time out
+############# tune_test_set/inst09.txt | conf 6 #############
+n_ants=52
+alpha=0.6719999999999999
+beta=0.4
+p=0.54
+iter=50
+# Best weight so far: 47703.0
+# Best weight so far: 47570.0 in iteration 8 (7 iterations without improvement)
+
+Time out
+############# tune_test_set/inst09.txt | conf 7 #############
+n_ants=50
+alpha=0.7
+beta=0.4
+p=0.46
+iter=50
+# Best weight so far: 47703.0
+# Best weight so far: 46348.0 in iteration 5 (4 iterations without improvement)
+# Best weight so far: 45878.0 in iteration 10 (4 iterations without improvement)
+# Best weight so far: 44845.0 in iteration 13 (2 iterations without improvement)
+
+Time out
+############# tune_test_set/inst09.txt | conf 8 #############
+n_ants=52
+alpha=0.756
+beta=0.4
+p=0.52
+iter=50
+# Best weight so far: 47703.0
+# Best weight so far: 45933.0 in iteration 6 (5 iterations without improvement)
+
+Time out
+############# tune_test_set/inst09.txt | conf 9 #############
+n_ants=50
+alpha=0.756
+beta=0.41600000000000004
+p=0.48
+iter=50
+# Best weight so far: 47703.0
+# Best weight so far: 47313.0 in iteration 1 (0 iterations without improvement)
+# Best weight so far: 45846.0 in iteration 3 (1 iterations without improvement)
+# Best weight so far: 45440.0 in iteration 7 (3 iterations without improvement)
+# Best weight so far: 44299.0 in iteration 12 (4 iterations without improvement)
+
+Time out
+############# tune_test_set/inst09.txt | conf 10 #############
+n_ants=54
+alpha=0.728
+beta=0.43200000000000005
+p=0.5
+iter=50
+# Best weight so far: 47703.0
+# Best weight so far: 47310.0 in iteration 7 (6 iterations without improvement)
+# Best weight so far: 46650.0 in iteration 11 (3 iterations without improvement)
+
+Time out
+############# tune_test_set/inst09.txt | conf 11 #############
+n_ants=48
+alpha=0.728
+beta=0.43200000000000005
+p=0.52
+iter=50
+# Best weight so far: 47703.0
+# Best weight so far: 46138.0 in iteration 9 (8 iterations without improvement)
+
+Time out
+############# tune_test_set/inst09.txt | conf 12 #############
+n_ants=54
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.48
+iter=50
+# Best weight so far: 47703.0
+# Best weight so far: 44982.0 in iteration 7 (6 iterations without improvement)
+
+Time out
+############# tune_test_set/inst09.txt | conf 13 #############
+n_ants=48
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.5
+iter=50
+# Best weight so far: 47703.0
+# Best weight so far: 47064.0 in iteration 7 (6 iterations without improvement)
+
+Time out
+############# tune_test_set/inst09.txt | conf 14 #############
+n_ants=50
+alpha=0.6719999999999999
+beta=0.4
+p=0.52
+iter=50
+# Best weight so far: 47703.0
+# Best weight so far: 44979.0 in iteration 11 (10 iterations without improvement)
+
+Time out
+############# tune_test_set/inst09.txt | conf 15 #############
+n_ants=48
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.52
+iter=50
+# Best weight so far: 47703.0
+# Best weight so far: 44959.0 in iteration 6 (5 iterations without improvement)
+# Best weight so far: 44684.0 in iteration 10 (3 iterations without improvement)
+
+Time out
+############# tune_test_set/inst09.txt | conf 16 #############
+n_ants=46
+alpha=0.728
+beta=0.43200000000000005
+p=0.5
+iter=50
+# Best weight so far: 47703.0
+# Best weight so far: 42029.0 in iteration 7 (6 iterations without improvement)
+# Best weight so far: 40458.0 in iteration 14 (6 iterations without improvement)
+
+Time out
+############# tune_test_set/inst09.txt | conf 17 #############
+n_ants=50
+alpha=0.6439999999999999
+beta=0.384
+p=0.48
+iter=50
+# Best weight so far: 47703.0
+# Best weight so far: 47543.0 in iteration 9 (8 iterations without improvement)
+# Best weight so far: 45876.0 in iteration 10 (0 iterations without improvement)
+# Best weight so far: 44674.0 in iteration 12 (1 iterations without improvement)
+
+Time out
+############# tune_test_set/inst09.txt | conf 18 #############
+n_ants=54
+alpha=0.6719999999999999
+beta=0.43200000000000005
+p=0.46
+iter=50
+# Best weight so far: 47703.0
+# Best weight so far: 43710.0 in iteration 5 (4 iterations without improvement)
+
+Time out
+############# tune_test_set/inst09.txt | conf 19 #############
+n_ants=54
+alpha=0.756
+beta=0.41600000000000004
+p=0.48
+iter=50
+# Best weight so far: 47703.0
+# Best weight so far: 42710.0 in iteration 3 (2 iterations without improvement)
+
+Time out
+############# tune_test_set/inst09.txt | conf 20 #############
+n_ants=48
+alpha=0.6719999999999999
+beta=0.368
+p=0.46
+iter=50
+# Best weight so far: 47703.0
+# Best weight so far: 46353.0 in iteration 4 (3 iterations without improvement)
+# Best weight so far: 46271.0 in iteration 9 (4 iterations without improvement)
+
+Time out
+############# tune_test_set/inst09.txt | conf 21 #############
+n_ants=50
+alpha=0.7
+beta=0.41600000000000004
+p=0.5
+iter=50
+# Best weight so far: 47703.0
+# Best weight so far: 47145.0 in iteration 7 (6 iterations without improvement)
+# Best weight so far: 44787.0 in iteration 11 (3 iterations without improvement)
+
+Time out
+############# tune_test_set/inst09.txt | conf 22 #############
+n_ants=46
+alpha=0.756
+beta=0.368
+p=0.48
+iter=50
+# Best weight so far: 47703.0
+# Best weight so far: 42780.0 in iteration 11 (10 iterations without improvement)
+# Best weight so far: 42633.0 in iteration 13 (1 iterations without improvement)
+# Best weight so far: 42044.0 in iteration 14 (0 iterations without improvement)
+
+Time out
+############# tune_test_set/inst09.txt | conf 23 #############
+n_ants=46
+alpha=0.728
+beta=0.368
+p=0.46
+iter=50
+# Best weight so far: 47703.0
+# Best weight so far: 47604.0 in iteration 9 (8 iterations without improvement)
+# Best weight so far: 45328.0 in iteration 14 (4 iterations without improvement)
+
+Time out
+############# tune_test_set/inst09.txt | conf 24 #############
+n_ants=50
+alpha=0.728
+beta=0.4
+p=0.52
+iter=50
+# Best weight so far: 47703.0
+# Best weight so far: 46632.0 in iteration 12 (11 iterations without improvement)
+# Best weight so far: 46075.0 in iteration 13 (0 iterations without improvement)
+
+Time out
+############# tune_test_set/inst09.txt | conf 25 #############
+n_ants=52
+alpha=0.756
+beta=0.384
+p=0.52
+iter=50
+# Best weight so far: 47703.0
+# Best weight so far: 42986.0 in iteration 11 (10 iterations without improvement)
+
+Time out
+############# tune_test_set/inst09.txt | conf 26 #############
+n_ants=54
+alpha=0.7
+beta=0.43200000000000005
+p=0.52
+iter=50
+# Best weight so far: 47703.0
+# Best weight so far: 47251.0 in iteration 4 (3 iterations without improvement)
+# Best weight so far: 43907.0 in iteration 8 (3 iterations without improvement)
+
+Time out
+############# tune_test_set/inst09.txt | conf 27 #############
+n_ants=46
+alpha=0.756
+beta=0.368
+p=0.52
+iter=50
+# Best weight so far: 47703.0
+# Best weight so far: 45909.0 in iteration 9 (8 iterations without improvement)
+# Best weight so far: 43528.0 in iteration 14 (4 iterations without improvement)
+
+Time out
+############# tune_test_set/inst09.txt | conf 28 #############
+n_ants=50
+alpha=0.756
+beta=0.4
+p=0.5
+iter=50
+# Best weight so far: 47703.0
+# Best weight so far: 46488.0 in iteration 7 (6 iterations without improvement)
+
+Time out
+############# tune_test_set/inst09.txt | conf 29 #############
+n_ants=52
+alpha=0.7
+beta=0.41600000000000004
+p=0.54
+iter=50
+# Best weight so far: 47703.0
+# Best weight so far: 47277.0 in iteration 3 (2 iterations without improvement)
+# Best weight so far: 43967.0 in iteration 9 (5 iterations without improvement)
+
+Time out
+############# tune_test_set/inst05.txt | conf 0 #############
+n_ants=52
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.54
+iter=50
+# Best weight so far: 49688.0
+
+Time out
+############# tune_test_set/inst05.txt | conf 1 #############
+n_ants=52
+alpha=0.7
+beta=0.384
+p=0.46
+iter=50
+# Best weight so far: 49688.0
+
+Time out
+############# tune_test_set/inst05.txt | conf 2 #############
+n_ants=46
+alpha=0.6719999999999999
+beta=0.41600000000000004
+p=0.48
+iter=50
+# Best weight so far: 49688.0
+
+Time out
+############# tune_test_set/inst05.txt | conf 3 #############
+n_ants=50
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.46
+iter=50
+# Best weight so far: 49688.0
+
+Time out
+############# tune_test_set/inst05.txt | conf 4 #############
+n_ants=54
+alpha=0.6439999999999999
+beta=0.43200000000000005
+p=0.52
+iter=50
+# Best weight so far: 49688.0
+
+Time out
+############# tune_test_set/inst05.txt | conf 5 #############
+n_ants=52
+alpha=0.756
+beta=0.43200000000000005
+p=0.5
+iter=50
+# Best weight so far: 49688.0
+
+Time out
+############# tune_test_set/inst05.txt | conf 6 #############
+n_ants=52
+alpha=0.6719999999999999
+beta=0.4
+p=0.54
+iter=50
+# Best weight so far: 49688.0
+
+Time out
+############# tune_test_set/inst05.txt | conf 7 #############
+n_ants=50
+alpha=0.7
+beta=0.4
+p=0.46
+iter=50
+# Best weight so far: 49688.0
+
+Time out
+############# tune_test_set/inst05.txt | conf 8 #############
+n_ants=52
+alpha=0.756
+beta=0.4
+p=0.52
+iter=50
+# Best weight so far: 49688.0
+
+Time out
+############# tune_test_set/inst05.txt | conf 9 #############
+n_ants=50
+alpha=0.756
+beta=0.41600000000000004
+p=0.48
+iter=50
+# Best weight so far: 49688.0
+
+Time out
+############# tune_test_set/inst05.txt | conf 10 #############
+n_ants=54
+alpha=0.728
+beta=0.43200000000000005
+p=0.5
+iter=50
+# Best weight so far: 49688.0
+
+Time out
+############# tune_test_set/inst05.txt | conf 11 #############
+n_ants=48
+alpha=0.728
+beta=0.43200000000000005
+p=0.52
+iter=50
+# Best weight so far: 49688.0
+
+Time out
+############# tune_test_set/inst05.txt | conf 12 #############
+n_ants=54
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.48
+iter=50
+# Best weight so far: 49688.0
+
+Time out
+############# tune_test_set/inst05.txt | conf 13 #############
+n_ants=48
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.5
+iter=50
+# Best weight so far: 49688.0
+
+Time out
+############# tune_test_set/inst05.txt | conf 14 #############
+n_ants=50
+alpha=0.6719999999999999
+beta=0.4
+p=0.52
+iter=50
+# Best weight so far: 49688.0
+
+Time out
+############# tune_test_set/inst05.txt | conf 15 #############
+n_ants=48
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.52
+iter=50
+# Best weight so far: 49688.0
+
+Time out
+############# tune_test_set/inst05.txt | conf 16 #############
+n_ants=46
+alpha=0.728
+beta=0.43200000000000005
+p=0.5
+iter=50
+# Best weight so far: 49688.0
+
+Time out
+############# tune_test_set/inst05.txt | conf 17 #############
+n_ants=50
+alpha=0.6439999999999999
+beta=0.384
+p=0.48
+iter=50
+# Best weight so far: 49688.0
+
+Time out
+############# tune_test_set/inst05.txt | conf 18 #############
+n_ants=54
+alpha=0.6719999999999999
+beta=0.43200000000000005
+p=0.46
+iter=50
+# Best weight so far: 49688.0
+
+Time out
+############# tune_test_set/inst05.txt | conf 19 #############
+n_ants=54
+alpha=0.756
+beta=0.41600000000000004
+p=0.48
+iter=50
+# Best weight so far: 49688.0
+
+Time out
+############# tune_test_set/inst05.txt | conf 20 #############
+n_ants=48
+alpha=0.6719999999999999
+beta=0.368
+p=0.46
+iter=50
+# Best weight so far: 49688.0
+
+Time out
+############# tune_test_set/inst05.txt | conf 21 #############
+n_ants=50
+alpha=0.7
+beta=0.41600000000000004
+p=0.5
+iter=50
+# Best weight so far: 49688.0
+
+Time out
+############# tune_test_set/inst05.txt | conf 22 #############
+n_ants=46
+alpha=0.756
+beta=0.368
+p=0.48
+iter=50
+# Best weight so far: 49688.0
+
+Time out
+############# tune_test_set/inst05.txt | conf 23 #############
+n_ants=46
+alpha=0.728
+beta=0.368
+p=0.46
+iter=50
+# Best weight so far: 49688.0
+
+Time out
+############# tune_test_set/inst05.txt | conf 24 #############
+n_ants=50
+alpha=0.728
+beta=0.4
+p=0.52
+iter=50
+# Best weight so far: 49688.0
+
+Time out
+############# tune_test_set/inst05.txt | conf 25 #############
+n_ants=52
+alpha=0.756
+beta=0.384
+p=0.52
+iter=50
+# Best weight so far: 49688.0
+
+Time out
+############# tune_test_set/inst05.txt | conf 26 #############
+n_ants=54
+alpha=0.7
+beta=0.43200000000000005
+p=0.52
+iter=50
+# Best weight so far: 49688.0
+
+Time out
+############# tune_test_set/inst05.txt | conf 27 #############
+n_ants=46
+alpha=0.756
+beta=0.368
+p=0.52
+iter=50
+# Best weight so far: 49688.0
+
+Time out
+############# tune_test_set/inst05.txt | conf 28 #############
+n_ants=50
+alpha=0.756
+beta=0.4
+p=0.5
+iter=50
+# Best weight so far: 49688.0
+
+Time out
+############# tune_test_set/inst05.txt | conf 29 #############
+n_ants=52
+alpha=0.7
+beta=0.41600000000000004
+p=0.54
+iter=50
+# Best weight so far: 49688.0
+
+Time out
+############# tune_test_set/inst08.txt | conf 0 #############
+n_ants=52
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.54
+iter=50
+# Best weight so far: 53657.0
+
+Time out
+############# tune_test_set/inst08.txt | conf 1 #############
+n_ants=52
+alpha=0.7
+beta=0.384
+p=0.46
+iter=50
+# Best weight so far: 53657.0
+
+Time out
+############# tune_test_set/inst08.txt | conf 2 #############
+n_ants=46
+alpha=0.6719999999999999
+beta=0.41600000000000004
+p=0.48
+iter=50
+# Best weight so far: 53657.0
+
+Time out
+############# tune_test_set/inst08.txt | conf 3 #############
+n_ants=50
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.46
+iter=50
+# Best weight so far: 53657.0
+
+Time out
+############# tune_test_set/inst08.txt | conf 4 #############
+n_ants=54
+alpha=0.6439999999999999
+beta=0.43200000000000005
+p=0.52
+iter=50
+# Best weight so far: 53657.0
+
+Time out
+############# tune_test_set/inst08.txt | conf 5 #############
+n_ants=52
+alpha=0.756
+beta=0.43200000000000005
+p=0.5
+iter=50
+# Best weight so far: 53657.0
+
+Time out
+############# tune_test_set/inst08.txt | conf 6 #############
+n_ants=52
+alpha=0.6719999999999999
+beta=0.4
+p=0.54
+iter=50
+# Best weight so far: 53657.0
+
+Time out
+############# tune_test_set/inst08.txt | conf 7 #############
+n_ants=50
+alpha=0.7
+beta=0.4
+p=0.46
+iter=50
+# Best weight so far: 53657.0
+
+Time out
+############# tune_test_set/inst08.txt | conf 8 #############
+n_ants=52
+alpha=0.756
+beta=0.4
+p=0.52
+iter=50
+# Best weight so far: 53657.0
+
+Time out
+############# tune_test_set/inst08.txt | conf 9 #############
+n_ants=50
+alpha=0.756
+beta=0.41600000000000004
+p=0.48
+iter=50
+# Best weight so far: 53657.0
+
+Time out
+############# tune_test_set/inst08.txt | conf 10 #############
+n_ants=54
+alpha=0.728
+beta=0.43200000000000005
+p=0.5
+iter=50
+# Best weight so far: 53657.0
+
+Time out
+############# tune_test_set/inst08.txt | conf 11 #############
+n_ants=48
+alpha=0.728
+beta=0.43200000000000005
+p=0.52
+iter=50
+# Best weight so far: 53657.0
+
+Time out
+############# tune_test_set/inst08.txt | conf 12 #############
+n_ants=54
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.48
+iter=50
+# Best weight so far: 53657.0
+
+Time out
+############# tune_test_set/inst08.txt | conf 13 #############
+n_ants=48
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.5
+iter=50
+# Best weight so far: 53657.0
+
+Time out
+############# tune_test_set/inst08.txt | conf 14 #############
+n_ants=50
+alpha=0.6719999999999999
+beta=0.4
+p=0.52
+iter=50
+# Best weight so far: 53657.0
+
+Time out
+############# tune_test_set/inst08.txt | conf 15 #############
+n_ants=48
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.52
+iter=50
+# Best weight so far: 53657.0
+
+Time out
+############# tune_test_set/inst08.txt | conf 16 #############
+n_ants=46
+alpha=0.728
+beta=0.43200000000000005
+p=0.5
+iter=50
+# Best weight so far: 53657.0
+
+Time out
+############# tune_test_set/inst08.txt | conf 17 #############
+n_ants=50
+alpha=0.6439999999999999
+beta=0.384
+p=0.48
+iter=50
+# Best weight so far: 53657.0
+
+Time out
+############# tune_test_set/inst08.txt | conf 18 #############
+n_ants=54
+alpha=0.6719999999999999
+beta=0.43200000000000005
+p=0.46
+iter=50
+# Best weight so far: 53657.0
+
+Time out
+############# tune_test_set/inst08.txt | conf 19 #############
+n_ants=54
+alpha=0.756
+beta=0.41600000000000004
+p=0.48
+iter=50
+# Best weight so far: 53657.0
+
+Time out
+############# tune_test_set/inst08.txt | conf 20 #############
+n_ants=48
+alpha=0.6719999999999999
+beta=0.368
+p=0.46
+iter=50
+# Best weight so far: 53657.0
+
+Time out
+############# tune_test_set/inst08.txt | conf 21 #############
+n_ants=50
+alpha=0.7
+beta=0.41600000000000004
+p=0.5
+iter=50
+# Best weight so far: 53657.0
+
+Time out
+############# tune_test_set/inst08.txt | conf 22 #############
+n_ants=46
+alpha=0.756
+beta=0.368
+p=0.48
+iter=50
+# Best weight so far: 53657.0
+
+Time out
+############# tune_test_set/inst08.txt | conf 23 #############
+n_ants=46
+alpha=0.728
+beta=0.368
+p=0.46
+iter=50
+# Best weight so far: 53657.0
+
+Time out
+############# tune_test_set/inst08.txt | conf 24 #############
+n_ants=50
+alpha=0.728
+beta=0.4
+p=0.52
+iter=50
+# Best weight so far: 53657.0
+
+Time out
+############# tune_test_set/inst08.txt | conf 25 #############
+n_ants=52
+alpha=0.756
+beta=0.384
+p=0.52
+iter=50
+# Best weight so far: 53657.0
+
+Time out
+############# tune_test_set/inst08.txt | conf 26 #############
+n_ants=54
+alpha=0.7
+beta=0.43200000000000005
+p=0.52
+iter=50
+# Best weight so far: 53657.0
+
+Time out
+############# tune_test_set/inst08.txt | conf 27 #############
+n_ants=46
+alpha=0.756
+beta=0.368
+p=0.52
+iter=50
+# Best weight so far: 53657.0
+
+Time out
+############# tune_test_set/inst08.txt | conf 28 #############
+n_ants=50
+alpha=0.756
+beta=0.4
+p=0.5
+iter=50
+# Best weight so far: 53657.0
+
+Time out
+############# tune_test_set/inst08.txt | conf 29 #############
+n_ants=52
+alpha=0.7
+beta=0.41600000000000004
+p=0.54
+iter=50
+# Best weight so far: 53657.0
+
+Time out
+############# tune_test_set/inst03.txt | conf 0 #############
+n_ants=52
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.54
+iter=50
+# Best weight so far: 54563.0
+
+Time out
+############# tune_test_set/inst03.txt | conf 1 #############
+n_ants=52
+alpha=0.7
+beta=0.384
+p=0.46
+iter=50
+# Best weight so far: 54563.0
+
+Time out
+############# tune_test_set/inst03.txt | conf 2 #############
+n_ants=46
+alpha=0.6719999999999999
+beta=0.41600000000000004
+p=0.48
+iter=50
+# Best weight so far: 54563.0
+
+Time out
+############# tune_test_set/inst03.txt | conf 3 #############
+n_ants=50
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.46
+iter=50
+# Best weight so far: 54563.0
+# Best weight so far: 52857.0 in iteration 8 (7 iterations without improvement)
+
+Time out
+############# tune_test_set/inst03.txt | conf 4 #############
+n_ants=54
+alpha=0.6439999999999999
+beta=0.43200000000000005
+p=0.52
+iter=50
+# Best weight so far: 54563.0
+
+Time out
+############# tune_test_set/inst03.txt | conf 5 #############
+n_ants=52
+alpha=0.756
+beta=0.43200000000000005
+p=0.5
+iter=50
+# Best weight so far: 54563.0
+
+Time out
+############# tune_test_set/inst03.txt | conf 6 #############
+n_ants=52
+alpha=0.6719999999999999
+beta=0.4
+p=0.54
+iter=50
+# Best weight so far: 54563.0
+
+Time out
+############# tune_test_set/inst03.txt | conf 7 #############
+n_ants=50
+alpha=0.7
+beta=0.4
+p=0.46
+iter=50
+# Best weight so far: 54563.0
+
+Time out
+############# tune_test_set/inst03.txt | conf 8 #############
+n_ants=52
+alpha=0.756
+beta=0.4
+p=0.52
+iter=50
+# Best weight so far: 54563.0
+
+Time out
+############# tune_test_set/inst03.txt | conf 9 #############
+n_ants=50
+alpha=0.756
+beta=0.41600000000000004
+p=0.48
+iter=50
+# Best weight so far: 54563.0
+
+Time out
+############# tune_test_set/inst03.txt | conf 10 #############
+n_ants=54
+alpha=0.728
+beta=0.43200000000000005
+p=0.5
+iter=50
+# Best weight so far: 54563.0
+
+Time out
+############# tune_test_set/inst03.txt | conf 11 #############
+n_ants=48
+alpha=0.728
+beta=0.43200000000000005
+p=0.52
+iter=50
+# Best weight so far: 54563.0
+
+Time out
+############# tune_test_set/inst03.txt | conf 12 #############
+n_ants=54
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.48
+iter=50
+# Best weight so far: 54563.0
+
+Time out
+############# tune_test_set/inst03.txt | conf 13 #############
+n_ants=48
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.5
+iter=50
+# Best weight so far: 54563.0
+
+Time out
+############# tune_test_set/inst03.txt | conf 14 #############
+n_ants=50
+alpha=0.6719999999999999
+beta=0.4
+p=0.52
+iter=50
+# Best weight so far: 54563.0
+
+Time out
+############# tune_test_set/inst03.txt | conf 15 #############
+n_ants=48
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.52
+iter=50
+# Best weight so far: 54563.0
+
+Time out
+############# tune_test_set/inst03.txt | conf 16 #############
+n_ants=46
+alpha=0.728
+beta=0.43200000000000005
+p=0.5
+iter=50
+# Best weight so far: 54563.0
+
+Time out
+############# tune_test_set/inst03.txt | conf 17 #############
+n_ants=50
+alpha=0.6439999999999999
+beta=0.384
+p=0.48
+iter=50
+# Best weight so far: 54563.0
+
+Time out
+############# tune_test_set/inst03.txt | conf 18 #############
+n_ants=54
+alpha=0.6719999999999999
+beta=0.43200000000000005
+p=0.46
+iter=50
+# Best weight so far: 54563.0
+
+Time out
+############# tune_test_set/inst03.txt | conf 19 #############
+n_ants=54
+alpha=0.756
+beta=0.41600000000000004
+p=0.48
+iter=50
+# Best weight so far: 54563.0
+
+Time out
+############# tune_test_set/inst03.txt | conf 20 #############
+n_ants=48
+alpha=0.6719999999999999
+beta=0.368
+p=0.46
+iter=50
+# Best weight so far: 54563.0
+
+Time out
+############# tune_test_set/inst03.txt | conf 21 #############
+n_ants=50
+alpha=0.7
+beta=0.41600000000000004
+p=0.5
+iter=50
+# Best weight so far: 54563.0
+
+Time out
+############# tune_test_set/inst03.txt | conf 22 #############
+n_ants=46
+alpha=0.756
+beta=0.368
+p=0.48
+iter=50
+# Best weight so far: 54563.0
+# Best weight so far: 54457.0 in iteration 7 (6 iterations without improvement)
+
+Time out
+############# tune_test_set/inst03.txt | conf 23 #############
+n_ants=46
+alpha=0.728
+beta=0.368
+p=0.46
+iter=50
+# Best weight so far: 54563.0
+# Best weight so far: 54112.0 in iteration 9 (8 iterations without improvement)
+
+Time out
+############# tune_test_set/inst03.txt | conf 24 #############
+n_ants=50
+alpha=0.728
+beta=0.4
+p=0.52
+iter=50
+# Best weight so far: 54563.0
+
+Time out
+############# tune_test_set/inst03.txt | conf 25 #############
+n_ants=52
+alpha=0.756
+beta=0.384
+p=0.52
+iter=50
+# Best weight so far: 54563.0
+
+Time out
+############# tune_test_set/inst03.txt | conf 26 #############
+n_ants=54
+alpha=0.7
+beta=0.43200000000000005
+p=0.52
+iter=50
+# Best weight so far: 54563.0
+
+Time out
+############# tune_test_set/inst03.txt | conf 27 #############
+n_ants=46
+alpha=0.756
+beta=0.368
+p=0.52
+iter=50
+# Best weight so far: 54563.0
+
+Time out
+############# tune_test_set/inst03.txt | conf 28 #############
+n_ants=50
+alpha=0.756
+beta=0.4
+p=0.5
+iter=50
+# Best weight so far: 54563.0
+
+Time out
+############# tune_test_set/inst03.txt | conf 29 #############
+n_ants=52
+alpha=0.7
+beta=0.41600000000000004
+p=0.54
+iter=50
+# Best weight so far: 54563.0
+
+Time out
+############# tune_test_set/inst02.txt | conf 0 #############
+n_ants=52
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.54
+iter=50
+# Best weight so far: 49217.0
+
+Time out
+############# tune_test_set/inst02.txt | conf 1 #############
+n_ants=52
+alpha=0.7
+beta=0.384
+p=0.46
+iter=50
+# Best weight so far: 49217.0
+# Best weight so far: 47555.0 in iteration 6 (5 iterations without improvement)
+# Best weight so far: 47452.0 in iteration 8 (1 iterations without improvement)
+# Best weight so far: 47146.0 in iteration 10 (1 iterations without improvement)
+
+Time out
+############# tune_test_set/inst02.txt | conf 2 #############
+n_ants=46
+alpha=0.6719999999999999
+beta=0.41600000000000004
+p=0.48
+iter=50
+# Best weight so far: 49217.0
+# Best weight so far: 49102.0 in iteration 7 (6 iterations without improvement)
+
+Time out
+############# tune_test_set/inst02.txt | conf 3 #############
+n_ants=50
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.46
+iter=50
+# Best weight so far: 49217.0
+# Best weight so far: 48588.0 in iteration 10 (9 iterations without improvement)
+
+Time out
+############# tune_test_set/inst02.txt | conf 4 #############
+n_ants=54
+alpha=0.6439999999999999
+beta=0.43200000000000005
+p=0.52
+iter=50
+# Best weight so far: 49217.0
+# Best weight so far: 48058.0 in iteration 9 (8 iterations without improvement)
+
+Time out
+############# tune_test_set/inst02.txt | conf 5 #############
+n_ants=52
+alpha=0.756
+beta=0.43200000000000005
+p=0.5
+iter=50
+# Best weight so far: 49217.0
+# Best weight so far: 45233.0 in iteration 1 (0 iterations without improvement)
+
+Time out
+############# tune_test_set/inst02.txt | conf 6 #############
+n_ants=52
+alpha=0.6719999999999999
+beta=0.4
+p=0.54
+iter=50
+# Best weight so far: 49217.0
+# Best weight so far: 47332.0 in iteration 5 (4 iterations without improvement)
+
+Time out
+############# tune_test_set/inst02.txt | conf 7 #############
+n_ants=50
+alpha=0.7
+beta=0.4
+p=0.46
+iter=50
+# Best weight so far: 49217.0
+# Best weight so far: 45290.0 in iteration 3 (2 iterations without improvement)
+# Best weight so far: 43856.0 in iteration 10 (6 iterations without improvement)
+
+Time out
+############# tune_test_set/inst02.txt | conf 8 #############
+n_ants=52
+alpha=0.756
+beta=0.4
+p=0.52
+iter=50
+# Best weight so far: 49217.0
+# Best weight so far: 48025.0 in iteration 3 (2 iterations without improvement)
+# Best weight so far: 44680.0 in iteration 7 (3 iterations without improvement)
+
+Time out
+############# tune_test_set/inst02.txt | conf 9 #############
+n_ants=50
+alpha=0.756
+beta=0.41600000000000004
+p=0.48
+iter=50
+# Best weight so far: 49217.0
+# Best weight so far: 48395.0 in iteration 8 (7 iterations without improvement)
+
+Time out
+############# tune_test_set/inst02.txt | conf 10 #############
+n_ants=54
+alpha=0.728
+beta=0.43200000000000005
+p=0.5
+iter=50
+# Best weight so far: 49217.0
+# Best weight so far: 48607.0 in iteration 3 (2 iterations without improvement)
+# Best weight so far: 48534.0 in iteration 10 (6 iterations without improvement)
+
+Time out
+############# tune_test_set/inst02.txt | conf 11 #############
+n_ants=48
+alpha=0.728
+beta=0.43200000000000005
+p=0.52
+iter=50
+# Best weight so far: 49217.0
+
+Time out
+############# tune_test_set/inst02.txt | conf 12 #############
+n_ants=54
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.48
+iter=50
+# Best weight so far: 49217.0
+# Best weight so far: 49126.0 in iteration 5 (4 iterations without improvement)
+# Best weight so far: 46672.0 in iteration 10 (4 iterations without improvement)
+
+Time out
+############# tune_test_set/inst02.txt | conf 13 #############
+n_ants=48
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.5
+iter=50
+# Best weight so far: 49217.0
+# Best weight so far: 46331.0 in iteration 11 (10 iterations without improvement)
+
+Time out
+############# tune_test_set/inst02.txt | conf 14 #############
+n_ants=50
+alpha=0.6719999999999999
+beta=0.4
+p=0.52
+iter=50
+# Best weight so far: 49217.0
+# Best weight so far: 48193.0 in iteration 11 (10 iterations without improvement)
+
+Time out
+############# tune_test_set/inst02.txt | conf 15 #############
+n_ants=48
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.52
+iter=50
+# Best weight so far: 49217.0
+# Best weight so far: 48060.0 in iteration 7 (6 iterations without improvement)
+
+Time out
+############# tune_test_set/inst02.txt | conf 16 #############
+n_ants=46
+alpha=0.728
+beta=0.43200000000000005
+p=0.5
+iter=50
+# Best weight so far: 49217.0
+# Best weight so far: 48904.0 in iteration 9 (8 iterations without improvement)
+# Best weight so far: 48884.0 in iteration 11 (1 iterations without improvement)
+# Best weight so far: 48786.0 in iteration 12 (0 iterations without improvement)
+
+Time out
+############# tune_test_set/inst02.txt | conf 17 #############
+n_ants=50
+alpha=0.6439999999999999
+beta=0.384
+p=0.48
+iter=50
+# Best weight so far: 49217.0
+# Best weight so far: 48983.0 in iteration 5 (4 iterations without improvement)
+
+Time out
+############# tune_test_set/inst02.txt | conf 18 #############
+n_ants=54
+alpha=0.6719999999999999
+beta=0.43200000000000005
+p=0.46
+iter=50
+# Best weight so far: 49217.0
+# Best weight so far: 48535.0 in iteration 3 (2 iterations without improvement)
+# Best weight so far: 47749.0 in iteration 9 (5 iterations without improvement)
+# Best weight so far: 47452.0 in iteration 10 (0 iterations without improvement)
+
+Time out
+############# tune_test_set/inst02.txt | conf 19 #############
+n_ants=54
+alpha=0.756
+beta=0.41600000000000004
+p=0.48
+iter=50
+# Best weight so far: 49217.0
+# Best weight so far: 48707.0 in iteration 8 (7 iterations without improvement)
+# Best weight so far: 46057.0 in iteration 9 (0 iterations without improvement)
+
+Time out
+############# tune_test_set/inst02.txt | conf 20 #############
+n_ants=48
+alpha=0.6719999999999999
+beta=0.368
+p=0.46
+iter=50
+# Best weight so far: 49217.0
+# Best weight so far: 44297.0 in iteration 10 (9 iterations without improvement)
+
+Time out
+############# tune_test_set/inst02.txt | conf 21 #############
+n_ants=50
+alpha=0.7
+beta=0.41600000000000004
+p=0.5
+iter=50
+# Best weight so far: 49217.0
+# Best weight so far: 49138.0 in iteration 1 (0 iterations without improvement)
+# Best weight so far: 47109.0 in iteration 8 (6 iterations without improvement)
+
+Time out
+############# tune_test_set/inst02.txt | conf 22 #############
+n_ants=46
+alpha=0.756
+beta=0.368
+p=0.48
+iter=50
+# Best weight so far: 49217.0
+# Best weight so far: 48111.0 in iteration 8 (7 iterations without improvement)
+# Best weight so far: 40561.0 in iteration 12 (3 iterations without improvement)
+
+Time out
+############# tune_test_set/inst02.txt | conf 23 #############
+n_ants=46
+alpha=0.728
+beta=0.368
+p=0.46
+iter=50
+# Best weight so far: 49217.0
+# Best weight so far: 48070.0 in iteration 1 (0 iterations without improvement)
+# Best weight so far: 46847.0 in iteration 2 (0 iterations without improvement)
+# Best weight so far: 45580.0 in iteration 10 (7 iterations without improvement)
+# Best weight so far: 41944.0 in iteration 12 (1 iterations without improvement)
+
+Time out
+############# tune_test_set/inst02.txt | conf 24 #############
+n_ants=50
+alpha=0.728
+beta=0.4
+p=0.52
+iter=50
+# Best weight so far: 49217.0
+
+Time out
+############# tune_test_set/inst02.txt | conf 25 #############
+n_ants=52
+alpha=0.756
+beta=0.384
+p=0.52
+iter=50
+# Best weight so far: 49217.0
+# Best weight so far: 48243.0 in iteration 6 (5 iterations without improvement)
+# Best weight so far: 47941.0 in iteration 9 (2 iterations without improvement)
+
+Time out
+############# tune_test_set/inst02.txt | conf 26 #############
+n_ants=54
+alpha=0.7
+beta=0.43200000000000005
+p=0.52
+iter=50
+# Best weight so far: 49217.0
+# Best weight so far: 47424.0 in iteration 10 (9 iterations without improvement)
+# Best weight so far: 46770.0 in iteration 11 (0 iterations without improvement)
+
+Time out
+############# tune_test_set/inst02.txt | conf 27 #############
+n_ants=46
+alpha=0.756
+beta=0.368
+p=0.52
+iter=50
+# Best weight so far: 49217.0
+# Best weight so far: 48214.0 in iteration 12 (11 iterations without improvement)
+# Best weight so far: 47266.0 in iteration 13 (0 iterations without improvement)
+
+Time out
+############# tune_test_set/inst02.txt | conf 28 #############
+n_ants=50
+alpha=0.756
+beta=0.4
+p=0.5
+iter=50
+# Best weight so far: 49217.0
+# Best weight so far: 48204.0 in iteration 8 (7 iterations without improvement)
+# Best weight so far: 44365.0 in iteration 12 (3 iterations without improvement)
+
+Time out
+############# tune_test_set/inst02.txt | conf 29 #############
+n_ants=52
+alpha=0.7
+beta=0.41600000000000004
+p=0.54
+iter=50
+# Best weight so far: 49217.0
+# Best weight so far: 48864.0 in iteration 6 (5 iterations without improvement)
+
+Time out
+############# tune_test_set/inst07.txt | conf 0 #############
+n_ants=52
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.54
+iter=50
+# Best weight so far: 53066.0
+
+Time out
+############# tune_test_set/inst07.txt | conf 1 #############
+n_ants=52
+alpha=0.7
+beta=0.384
+p=0.46
+iter=50
+# Best weight so far: 53066.0
+
+Time out
+############# tune_test_set/inst07.txt | conf 2 #############
+n_ants=46
+alpha=0.6719999999999999
+beta=0.41600000000000004
+p=0.48
+iter=50
+# Best weight so far: 53066.0
+
+Time out
+############# tune_test_set/inst07.txt | conf 3 #############
+n_ants=50
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.46
+iter=50
+# Best weight so far: 53066.0
+
+Time out
+############# tune_test_set/inst07.txt | conf 4 #############
+n_ants=54
+alpha=0.6439999999999999
+beta=0.43200000000000005
+p=0.52
+iter=50
+# Best weight so far: 53066.0
+
+Time out
+############# tune_test_set/inst07.txt | conf 5 #############
+n_ants=52
+alpha=0.756
+beta=0.43200000000000005
+p=0.5
+iter=50
+# Best weight so far: 53066.0
+
+Time out
+############# tune_test_set/inst07.txt | conf 6 #############
+n_ants=52
+alpha=0.6719999999999999
+beta=0.4
+p=0.54
+iter=50
+# Best weight so far: 53066.0
+
+Time out
+############# tune_test_set/inst07.txt | conf 7 #############
+n_ants=50
+alpha=0.7
+beta=0.4
+p=0.46
+iter=50
+# Best weight so far: 53066.0
+
+Time out
+############# tune_test_set/inst07.txt | conf 8 #############
+n_ants=52
+alpha=0.756
+beta=0.4
+p=0.52
+iter=50
+# Best weight so far: 53066.0
+
+Time out
+############# tune_test_set/inst07.txt | conf 9 #############
+n_ants=50
+alpha=0.756
+beta=0.41600000000000004
+p=0.48
+iter=50
+# Best weight so far: 53066.0
+
+Time out
+############# tune_test_set/inst07.txt | conf 10 #############
+n_ants=54
+alpha=0.728
+beta=0.43200000000000005
+p=0.5
+iter=50
+# Best weight so far: 53066.0
+
+Time out
+############# tune_test_set/inst07.txt | conf 11 #############
+n_ants=48
+alpha=0.728
+beta=0.43200000000000005
+p=0.52
+iter=50
+# Best weight so far: 53066.0
+
+Time out
+############# tune_test_set/inst07.txt | conf 12 #############
+n_ants=54
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.48
+iter=50
+# Best weight so far: 53066.0
+
+Time out
+############# tune_test_set/inst07.txt | conf 13 #############
+n_ants=48
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.5
+iter=50
+# Best weight so far: 53066.0
+
+Time out
+############# tune_test_set/inst07.txt | conf 14 #############
+n_ants=50
+alpha=0.6719999999999999
+beta=0.4
+p=0.52
+iter=50
+# Best weight so far: 53066.0
+
+Time out
+############# tune_test_set/inst07.txt | conf 15 #############
+n_ants=48
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.52
+iter=50
+# Best weight so far: 53066.0
+
+Time out
+############# tune_test_set/inst07.txt | conf 16 #############
+n_ants=46
+alpha=0.728
+beta=0.43200000000000005
+p=0.5
+iter=50
+# Best weight so far: 53066.0
+
+Time out
+############# tune_test_set/inst07.txt | conf 17 #############
+n_ants=50
+alpha=0.6439999999999999
+beta=0.384
+p=0.48
+iter=50
+# Best weight so far: 53066.0
+
+Time out
+############# tune_test_set/inst07.txt | conf 18 #############
+n_ants=54
+alpha=0.6719999999999999
+beta=0.43200000000000005
+p=0.46
+iter=50
+# Best weight so far: 53066.0
+
+Time out
+############# tune_test_set/inst07.txt | conf 19 #############
+n_ants=54
+alpha=0.756
+beta=0.41600000000000004
+p=0.48
+iter=50
+# Best weight so far: 53066.0
+
+Time out
+############# tune_test_set/inst07.txt | conf 20 #############
+n_ants=48
+alpha=0.6719999999999999
+beta=0.368
+p=0.46
+iter=50
+# Best weight so far: 53066.0
+
+Time out
+############# tune_test_set/inst07.txt | conf 21 #############
+n_ants=50
+alpha=0.7
+beta=0.41600000000000004
+p=0.5
+iter=50
+# Best weight so far: 53066.0
+
+Time out
+############# tune_test_set/inst07.txt | conf 22 #############
+n_ants=46
+alpha=0.756
+beta=0.368
+p=0.48
+iter=50
+# Best weight so far: 53066.0
+
+Time out
+############# tune_test_set/inst07.txt | conf 23 #############
+n_ants=46
+alpha=0.728
+beta=0.368
+p=0.46
+iter=50
+# Best weight so far: 53066.0
+
+Time out
+############# tune_test_set/inst07.txt | conf 24 #############
+n_ants=50
+alpha=0.728
+beta=0.4
+p=0.52
+iter=50
+# Best weight so far: 53066.0
+
+Time out
+############# tune_test_set/inst07.txt | conf 25 #############
+n_ants=52
+alpha=0.756
+beta=0.384
+p=0.52
+iter=50
+# Best weight so far: 53066.0
+
+Time out
+############# tune_test_set/inst07.txt | conf 26 #############
+n_ants=54
+alpha=0.7
+beta=0.43200000000000005
+p=0.52
+iter=50
+# Best weight so far: 53066.0
+
+Time out
+############# tune_test_set/inst07.txt | conf 27 #############
+n_ants=46
+alpha=0.756
+beta=0.368
+p=0.52
+iter=50
+# Best weight so far: 53066.0
+
+Time out
+############# tune_test_set/inst07.txt | conf 28 #############
+n_ants=50
+alpha=0.756
+beta=0.4
+p=0.5
+iter=50
+# Best weight so far: 53066.0
+
+Time out
+############# tune_test_set/inst07.txt | conf 29 #############
+n_ants=52
+alpha=0.7
+beta=0.41600000000000004
+p=0.54
+iter=50
+# Best weight so far: 53066.0
+
+Time out
+############# tune_test_set/inst10.txt | conf 0 #############
+n_ants=52
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.54
+iter=50
+# Best weight so far: 46065.0
+
+Time out
+############# tune_test_set/inst10.txt | conf 1 #############
+n_ants=52
+alpha=0.7
+beta=0.384
+p=0.46
+iter=50
+# Best weight so far: 46065.0
+# Best weight so far: 45344.0 in iteration 5 (4 iterations without improvement)
+# Best weight so far: 39888.0 in iteration 10 (4 iterations without improvement)
+
+Time out
+############# tune_test_set/inst10.txt | conf 2 #############
+n_ants=46
+alpha=0.6719999999999999
+beta=0.41600000000000004
+p=0.48
+iter=50
+# Best weight so far: 46065.0
+# Best weight so far: 44223.0 in iteration 5 (4 iterations without improvement)
+# Best weight so far: 39597.0 in iteration 11 (5 iterations without improvement)
+
+Time out
+############# tune_test_set/inst10.txt | conf 3 #############
+n_ants=50
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.46
+iter=50
+# Best weight so far: 46065.0
+# Best weight so far: 45919.0 in iteration 4 (3 iterations without improvement)
+# Best weight so far: 39883.0 in iteration 5 (0 iterations without improvement)
+
+Time out
+############# tune_test_set/inst10.txt | conf 4 #############
+n_ants=54
+alpha=0.6439999999999999
+beta=0.43200000000000005
+p=0.52
+iter=50
+# Best weight so far: 46065.0
+
+Time out
+############# tune_test_set/inst10.txt | conf 5 #############
+n_ants=52
+alpha=0.756
+beta=0.43200000000000005
+p=0.5
+iter=50
+# Best weight so far: 46065.0
+# Best weight so far: 44972.0 in iteration 3 (2 iterations without improvement)
+# Best weight so far: 43143.0 in iteration 6 (2 iterations without improvement)
+# Best weight so far: 40784.0 in iteration 7 (0 iterations without improvement)
+
+Time out
+############# tune_test_set/inst10.txt | conf 6 #############
+n_ants=52
+alpha=0.6719999999999999
+beta=0.4
+p=0.54
+iter=50
+# Best weight so far: 46065.0
+# Best weight so far: 42958.0 in iteration 4 (3 iterations without improvement)
+
+Time out
+############# tune_test_set/inst10.txt | conf 7 #############
+n_ants=50
+alpha=0.7
+beta=0.4
+p=0.46
+iter=50
+# Best weight so far: 46065.0
+# Best weight so far: 44761.0 in iteration 9 (8 iterations without improvement)
+
+Time out
+############# tune_test_set/inst10.txt | conf 8 #############
+n_ants=52
+alpha=0.756
+beta=0.4
+p=0.52
+iter=50
+# Best weight so far: 46065.0
+# Best weight so far: 45255.0 in iteration 3 (2 iterations without improvement)
+# Best weight so far: 44047.0 in iteration 5 (1 iterations without improvement)
+# Best weight so far: 41782.0 in iteration 7 (1 iterations without improvement)
+# Best weight so far: 40354.0 in iteration 10 (2 iterations without improvement)
+
+Time out
+############# tune_test_set/inst10.txt | conf 9 #############
+n_ants=50
+alpha=0.756
+beta=0.41600000000000004
+p=0.48
+iter=50
+# Best weight so far: 46065.0
+# Best weight so far: 43780.0 in iteration 2 (1 iterations without improvement)
+# Best weight so far: 42693.0 in iteration 6 (3 iterations without improvement)
+# Best weight so far: 38786.0 in iteration 8 (1 iterations without improvement)
+
+Time out
+############# tune_test_set/inst10.txt | conf 10 #############
+n_ants=54
+alpha=0.728
+beta=0.43200000000000005
+p=0.5
+iter=50
+# Best weight so far: 46065.0
+# Best weight so far: 42318.0 in iteration 6 (5 iterations without improvement)
+# Best weight so far: 41667.0 in iteration 8 (1 iterations without improvement)
+
+Time out
+############# tune_test_set/inst10.txt | conf 11 #############
+n_ants=48
+alpha=0.728
+beta=0.43200000000000005
+p=0.52
+iter=50
+# Best weight so far: 46065.0
+# Best weight so far: 43998.0 in iteration 7 (6 iterations without improvement)
+# Best weight so far: 42713.0 in iteration 9 (1 iterations without improvement)
+
+Time out
+############# tune_test_set/inst10.txt | conf 12 #############
+n_ants=54
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.48
+iter=50
+# Best weight so far: 46065.0
+# Best weight so far: 45138.0 in iteration 5 (4 iterations without improvement)
+# Best weight so far: 44553.0 in iteration 8 (2 iterations without improvement)
+# Best weight so far: 44231.0 in iteration 10 (1 iterations without improvement)
+
+Time out
+############# tune_test_set/inst10.txt | conf 13 #############
+n_ants=48
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.5
+iter=50
+# Best weight so far: 46065.0
+# Best weight so far: 44564.0 in iteration 7 (6 iterations without improvement)
+# Best weight so far: 39446.0 in iteration 9 (1 iterations without improvement)
+
+Time out
+############# tune_test_set/inst10.txt | conf 14 #############
+n_ants=50
+alpha=0.6719999999999999
+beta=0.4
+p=0.52
+iter=50
+# Best weight so far: 46065.0
+# Best weight so far: 43703.0 in iteration 8 (7 iterations without improvement)
+
+Time out
+############# tune_test_set/inst10.txt | conf 15 #############
+n_ants=48
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.52
+iter=50
+# Best weight so far: 46065.0
+# Best weight so far: 45007.0 in iteration 5 (4 iterations without improvement)
+# Best weight so far: 42288.0 in iteration 9 (3 iterations without improvement)
+
+Time out
+############# tune_test_set/inst10.txt | conf 16 #############
+n_ants=46
+alpha=0.728
+beta=0.43200000000000005
+p=0.5
+iter=50
+# Best weight so far: 46065.0
+# Best weight so far: 44617.0 in iteration 2 (1 iterations without improvement)
+
+Time out
+############# tune_test_set/inst10.txt | conf 17 #############
+n_ants=50
+alpha=0.6439999999999999
+beta=0.384
+p=0.48
+iter=50
+# Best weight so far: 46065.0
+# Best weight so far: 45029.0 in iteration 6 (5 iterations without improvement)
+# Best weight so far: 44889.0 in iteration 7 (0 iterations without improvement)
+# Best weight so far: 43250.0 in iteration 9 (1 iterations without improvement)
+# Best weight so far: 42205.0 in iteration 10 (0 iterations without improvement)
+
+Time out
+############# tune_test_set/inst10.txt | conf 18 #############
+n_ants=54
+alpha=0.6719999999999999
+beta=0.43200000000000005
+p=0.46
+iter=50
+# Best weight so far: 46065.0
+# Best weight so far: 45397.0 in iteration 7 (6 iterations without improvement)
+
+Time out
+############# tune_test_set/inst10.txt | conf 19 #############
+n_ants=54
+alpha=0.756
+beta=0.41600000000000004
+p=0.48
+iter=50
+# Best weight so far: 46065.0
+# Best weight so far: 45465.0 in iteration 6 (5 iterations without improvement)
+
+Time out
+############# tune_test_set/inst10.txt | conf 20 #############
+n_ants=48
+alpha=0.6719999999999999
+beta=0.368
+p=0.46
+iter=50
+# Best weight so far: 46065.0
+# Best weight so far: 45659.0 in iteration 5 (4 iterations without improvement)
+# Best weight so far: 43844.0 in iteration 6 (0 iterations without improvement)
+# Best weight so far: 42723.0 in iteration 9 (2 iterations without improvement)
+# Best weight so far: 40562.0 in iteration 12 (2 iterations without improvement)
+
+Time out
+############# tune_test_set/inst10.txt | conf 21 #############
+n_ants=50
+alpha=0.7
+beta=0.41600000000000004
+p=0.5
+iter=50
+# Best weight so far: 46065.0
+# Best weight so far: 45119.0 in iteration 7 (6 iterations without improvement)
+
+Time out
+############# tune_test_set/inst10.txt | conf 22 #############
+n_ants=46
+alpha=0.756
+beta=0.368
+p=0.48
+iter=50
+# Best weight so far: 46065.0
+# Best weight so far: 45329.0 in iteration 4 (3 iterations without improvement)
+# Best weight so far: 43881.0 in iteration 10 (5 iterations without improvement)
+# Best weight so far: 39665.0 in iteration 12 (1 iterations without improvement)
+
+Time out
+############# tune_test_set/inst10.txt | conf 23 #############
+n_ants=46
+alpha=0.728
+beta=0.368
+p=0.46
+iter=50
+# Best weight so far: 46065.0
+# Best weight so far: 45313.0 in iteration 2 (1 iterations without improvement)
+# Best weight so far: 41994.0 in iteration 6 (3 iterations without improvement)
+# Best weight so far: 40239.0 in iteration 13 (6 iterations without improvement)
+
+Time out
+############# tune_test_set/inst10.txt | conf 24 #############
+n_ants=50
+alpha=0.728
+beta=0.4
+p=0.52
+iter=50
+# Best weight so far: 46065.0
+# Best weight so far: 43303.0 in iteration 7 (6 iterations without improvement)
+
+Time out
+############# tune_test_set/inst10.txt | conf 25 #############
+n_ants=52
+alpha=0.756
+beta=0.384
+p=0.52
+iter=50
+# Best weight so far: 46065.0
+# Best weight so far: 44871.0 in iteration 2 (1 iterations without improvement)
+# Best weight so far: 40998.0 in iteration 7 (4 iterations without improvement)
+
+Time out
+############# tune_test_set/inst10.txt | conf 26 #############
+n_ants=54
+alpha=0.7
+beta=0.43200000000000005
+p=0.52
+iter=50
+# Best weight so far: 46065.0
+
+Time out
+############# tune_test_set/inst10.txt | conf 27 #############
+n_ants=46
+alpha=0.756
+beta=0.368
+p=0.52
+iter=50
+# Best weight so far: 46065.0
+# Best weight so far: 43953.0 in iteration 6 (5 iterations without improvement)
+# Best weight so far: 43148.0 in iteration 11 (4 iterations without improvement)
+
+Time out
+############# tune_test_set/inst10.txt | conf 28 #############
+n_ants=50
+alpha=0.756
+beta=0.4
+p=0.5
+iter=50
+# Best weight so far: 46065.0
+# Best weight so far: 45535.0 in iteration 9 (8 iterations without improvement)
+# Best weight so far: 44566.0 in iteration 10 (0 iterations without improvement)
+
+Time out
+############# tune_test_set/inst10.txt | conf 29 #############
+n_ants=52
+alpha=0.7
+beta=0.41600000000000004
+p=0.54
+iter=50
+# Best weight so far: 46065.0
+# Best weight so far: 43536.0 in iteration 7 (6 iterations without improvement)
+
+Time out
+############# tune_test_set/inst04.txt | conf 0 #############
+n_ants=52
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.54
+iter=50
+# Best weight so far: 54294.0
+
+Time out
+############# tune_test_set/inst04.txt | conf 1 #############
+n_ants=52
+alpha=0.7
+beta=0.384
+p=0.46
+iter=50
+# Best weight so far: 54294.0
+# Best weight so far: 51985.0 in iteration 8 (7 iterations without improvement)
+
+Time out
+############# tune_test_set/inst04.txt | conf 2 #############
+n_ants=46
+alpha=0.6719999999999999
+beta=0.41600000000000004
+p=0.48
+iter=50
+# Best weight so far: 54294.0
+# Best weight so far: 53288.0 in iteration 7 (6 iterations without improvement)
+# Best weight so far: 51885.0 in iteration 11 (3 iterations without improvement)
+
+Time out
+############# tune_test_set/inst04.txt | conf 3 #############
+n_ants=50
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.46
+iter=50
+# Best weight so far: 54294.0
+# Best weight so far: 53887.0 in iteration 10 (9 iterations without improvement)
+# Best weight so far: 53288.0 in iteration 12 (1 iterations without improvement)
+
+Time out
+############# tune_test_set/inst04.txt | conf 4 #############
+n_ants=54
+alpha=0.6439999999999999
+beta=0.43200000000000005
+p=0.52
+iter=50
+# Best weight so far: 54294.0
+# Best weight so far: 53358.0 in iteration 10 (9 iterations without improvement)
+
+Time out
+############# tune_test_set/inst04.txt | conf 5 #############
+n_ants=52
+alpha=0.756
+beta=0.43200000000000005
+p=0.5
+iter=50
+# Best weight so far: 54294.0
+# Best weight so far: 53626.0 in iteration 2 (1 iterations without improvement)
+# Best weight so far: 51609.0 in iteration 8 (5 iterations without improvement)
+
+Time out
+############# tune_test_set/inst04.txt | conf 6 #############
+n_ants=52
+alpha=0.6719999999999999
+beta=0.4
+p=0.54
+iter=50
+# Best weight so far: 54294.0
+# Best weight so far: 51966.0 in iteration 6 (5 iterations without improvement)
+
+Time out
+############# tune_test_set/inst04.txt | conf 7 #############
+n_ants=50
+alpha=0.7
+beta=0.4
+p=0.46
+iter=50
+# Best weight so far: 54294.0
+# Best weight so far: 53169.0 in iteration 7 (6 iterations without improvement)
+# Best weight so far: 53166.0 in iteration 9 (1 iterations without improvement)
+# Best weight so far: 51440.0 in iteration 10 (0 iterations without improvement)
+# Best weight so far: 49145.0 in iteration 12 (1 iterations without improvement)
+
+Time out
+############# tune_test_set/inst04.txt | conf 8 #############
+n_ants=52
+alpha=0.756
+beta=0.4
+p=0.52
+iter=50
+# Best weight so far: 54294.0
+# Best weight so far: 52539.0 in iteration 8 (7 iterations without improvement)
+
+Time out
+############# tune_test_set/inst04.txt | conf 9 #############
+n_ants=50
+alpha=0.756
+beta=0.41600000000000004
+p=0.48
+iter=50
+# Best weight so far: 54294.0
+
+Time out
+############# tune_test_set/inst04.txt | conf 10 #############
+n_ants=54
+alpha=0.728
+beta=0.43200000000000005
+p=0.5
+iter=50
+# Best weight so far: 54294.0
+
+Time out
+############# tune_test_set/inst04.txt | conf 11 #############
+n_ants=48
+alpha=0.728
+beta=0.43200000000000005
+p=0.52
+iter=50
+# Best weight so far: 54294.0
+# Best weight so far: 53168.0 in iteration 10 (9 iterations without improvement)
+# Best weight so far: 49970.0 in iteration 11 (0 iterations without improvement)
+
+Time out
+############# tune_test_set/inst04.txt | conf 12 #############
+n_ants=54
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.48
+iter=50
+# Best weight so far: 54294.0
+# Best weight so far: 52313.0 in iteration 10 (9 iterations without improvement)
+
+Time out
+############# tune_test_set/inst04.txt | conf 13 #############
+n_ants=48
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.5
+iter=50
+# Best weight so far: 54294.0
+
+Time out
+############# tune_test_set/inst04.txt | conf 14 #############
+n_ants=50
+alpha=0.6719999999999999
+beta=0.4
+p=0.52
+iter=50
+# Best weight so far: 54294.0
+# Best weight so far: 51632.0 in iteration 11 (10 iterations without improvement)
+
+Time out
+############# tune_test_set/inst04.txt | conf 15 #############
+n_ants=48
+alpha=0.6439999999999999
+beta=0.41600000000000004
+p=0.52
+iter=50
+# Best weight so far: 54294.0
+# Best weight so far: 53990.0 in iteration 1 (0 iterations without improvement)
+# Best weight so far: 50781.0 in iteration 8 (6 iterations without improvement)
+
+Time out
+############# tune_test_set/inst04.txt | conf 16 #############
+n_ants=46
+alpha=0.728
+beta=0.43200000000000005
+p=0.5
+iter=50
+# Best weight so far: 54294.0
+# Best weight so far: 53803.0 in iteration 9 (8 iterations without improvement)
+# Best weight so far: 53645.0 in iteration 11 (1 iterations without improvement)
+# Best weight so far: 53546.0 in iteration 12 (0 iterations without improvement)
+
+Time out
+############# tune_test_set/inst04.txt | conf 17 #############
+n_ants=50
+alpha=0.6439999999999999
+beta=0.384
+p=0.48
+iter=50
+# Best weight so far: 54294.0
+
+Time out
+############# tune_test_set/inst04.txt | conf 18 #############
+n_ants=54
+alpha=0.6719999999999999
+beta=0.43200000000000005
+p=0.46
+iter=50
+# Best weight so far: 54294.0
+# Best weight so far: 53897.0 in iteration 4 (3 iterations without improvement)
+
+Time out
+############# tune_test_set/inst04.txt | conf 19 #############
+n_ants=54
+alpha=0.756
+beta=0.41600000000000004
+p=0.48
+iter=50
+# Best weight so far: 54294.0
+# Best weight so far: 53926.0 in iteration 7 (6 iterations without improvement)
+# Best weight so far: 51225.0 in iteration 10 (2 iterations without improvement)
+
+Time out
+############# tune_test_set/inst04.txt | conf 20 #############
+n_ants=48
+alpha=0.6719999999999999
+beta=0.368
+p=0.46
+iter=50
+# Best weight so far: 54294.0
+
+Time out
+############# tune_test_set/inst04.txt | conf 21 #############
+n_ants=50
+alpha=0.7
+beta=0.41600000000000004
+p=0.5
+iter=50
+# Best weight so far: 54294.0
+# Best weight so far: 52269.0 in iteration 12 (11 iterations without improvement)
+
+Time out
+############# tune_test_set/inst04.txt | conf 22 #############
+n_ants=46
+alpha=0.756
+beta=0.368
+p=0.48
+iter=50
+# Best weight so far: 54294.0
+# Best weight so far: 53906.0 in iteration 9 (8 iterations without improvement)
+# Best weight so far: 51289.0 in iteration 11 (1 iterations without improvement)
+# Best weight so far: 49601.0 in iteration 12 (0 iterations without improvement)
+
+Time out
+############# tune_test_set/inst04.txt | conf 23 #############
+n_ants=46
+alpha=0.728
+beta=0.368
+p=0.46
+iter=50
+# Best weight so far: 54294.0
+# Best weight so far: 50559.0 in iteration 2 (1 iterations without improvement)
+# Best weight so far: 50344.0 in iteration 12 (9 iterations without improvement)
+# Best weight so far: 49906.0 in iteration 13 (0 iterations without improvement)
+# Best weight so far: 47339.0 in iteration 14 (0 iterations without improvement)
+
+Time out
+############# tune_test_set/inst04.txt | conf 24 #############
+n_ants=50
+alpha=0.728
+beta=0.4
+p=0.52
+iter=50
+# Best weight so far: 54294.0
+
+Time out
+############# tune_test_set/inst04.txt | conf 25 #############
+n_ants=52
+alpha=0.756
+beta=0.384
+p=0.52
+iter=50
+# Best weight so far: 54294.0
+# Best weight so far: 53307.0 in iteration 8 (7 iterations without improvement)
+# Best weight so far: 52595.0 in iteration 10 (1 iterations without improvement)
+
+Time out
+############# tune_test_set/inst04.txt | conf 26 #############
+n_ants=54
+alpha=0.7
+beta=0.43200000000000005
+p=0.52
+iter=50
+# Best weight so far: 54294.0
+# Best weight so far: 54055.0 in iteration 2 (1 iterations without improvement)
+# Best weight so far: 53835.0 in iteration 3 (0 iterations without improvement)
+
+Time out
+############# tune_test_set/inst04.txt | conf 27 #############
+n_ants=46
+alpha=0.756
+beta=0.368
+p=0.52
+iter=50
+# Best weight so far: 54294.0
+# Best weight so far: 51817.0 in iteration 9 (8 iterations without improvement)
+
+Time out
+############# tune_test_set/inst04.txt | conf 28 #############
+n_ants=50
+alpha=0.756
+beta=0.4
+p=0.5
+iter=50
+# Best weight so far: 54294.0
+# Best weight so far: 52197.0 in iteration 6 (5 iterations without improvement)
+# Best weight so far: 51568.0 in iteration 7 (0 iterations without improvement)
+# Best weight so far: 50165.0 in iteration 11 (3 iterations without improvement)
+
+Time out
+############# tune_test_set/inst04.txt | conf 29 #############
+n_ants=52
+alpha=0.7
+beta=0.41600000000000004
+p=0.54
+iter=50
+# Best weight so far: 54294.0
+
+Time out
+scores: [242, 83, 95, 103, 69, 108, 100, 113, 103, 132, 121, 145, 163, 139, 184, 175, 138, 198, 168, 196, 196, 177, 209, 226, 205, 205, 247, 235, 78, 97]
+best_conf: (54.0, 0.7, 0.43200000000000005, 0.52)

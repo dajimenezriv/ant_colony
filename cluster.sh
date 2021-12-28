@@ -12,8 +12,7 @@
 # SEND ALL FILES FROM LOCAL DIR THAT DO NOT START WITH DOT
 # scp -r [!.]* hot12119846@eowyn.ac.tuwien.ac.at:/home1/hot12119846/
 #
-# qsub -N dajiri -l h_vmem=2G -r y -e /dev/null -o /dev/null run.sh
-# qsub -N dajiri -l h_vmem=2G -r y run.sh
+# qsub -N dajiri -l h_vmem=16G -r y -e /dev/null -o /dev/null run.sh
 # qstat
 #
 
