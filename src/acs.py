@@ -53,7 +53,7 @@ class AntColonySystem:
     ! edges_used have always the lower value as origin in the tuples
     """
 
-    def __init__(self, input_file, n_ants, alpha, beta, p, iter, verbose=0):
+    def __init__(self, input_file, n_ants, alpha, beta, p, iter, verbose=1):
         """
         Verbose -> 0 (nothing), 1 (time of the whole algorithm), 2 (time of each iteration)
         First, compute the kruskal heuristic to set the initial weight and edges, and also the max and min pheromone values
@@ -75,6 +75,9 @@ class AntColonySystem:
         self.best_edges2, self.best_weight = remove_leafs(self.n_nodes, deepcopy(heuristic.edges_used), self.best_weight, self.t2, self.a2)
         shared_edges = list(set(self.best_edges1) & set(self.best_edges2))
         self.best_weight += self.y * sum([edge[2] for edge in shared_edges])
+
+        # ignore weight of the heuristic
+        self.best_weight = np.inf
 
         print(f'# Best weight so far: {self.best_weight}')
         
@@ -122,9 +125,9 @@ class AntColonySystem:
         while t < self.iter:
             start2 = time.time()
             
-            # we want to stop moving when half 1/4 of each terminal finish
+            # we want to stop moving when 1/4 of each terminal finish
             moves = 0
-            while self.ants1_finished < self.n_ants // 8 or self.ants2_finished < self.n_ants // 8:
+            while self.ants1_finished < self.n_ants // 2 or self.ants2_finished < self.n_ants // 2:
                 moves += 1
                 self.move()
 
