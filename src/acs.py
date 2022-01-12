@@ -125,7 +125,7 @@ class AntColonySystem:
         while t < self.iter:
             start2 = time.time()
             
-            # we want to stop moving when 1/4 of each terminal finish
+            # we want to stop moving when all ants finish
             moves = 0
             while self.ants1_finished < self.n_ants // 2 or self.ants2_finished < self.n_ants // 2:
                 moves += 1
