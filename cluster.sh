@@ -12,8 +12,9 @@
 # SEND ALL FILES FROM LOCAL DIR THAT DO NOT START WITH DOT
 # scp -r [!.]* hot12119846@eowyn.ac.tuwien.ac.at:/home1/hot12119846/
 #
-# qsub -N dajiri -l h_vmem=16G -r y -e /dev/null -o /dev/null run.sh
+# qsub -N dajiri -l h_vmem=20G -r y -e /dev/null -o /dev/null cluster.sh
 # qstat
+# qdel [ID]
 #
 
 /usr/bin/python3 ./src/main.py > output.txt
